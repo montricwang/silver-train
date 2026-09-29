@@ -1,0 +1,1004 @@
+先给一个总判断：
+
+**做到 6 个版本左右，你就能覆盖大部分 AI 应用岗 JD 的核心关键词。**
+再往后 2 个版本，更多是在把前面的东西“产品化”和“标准化”，而不是出现全新的核心能力。现在主流 agent 指南也基本都在强调：先从简单 workflow 起步，按需要增加复杂度，而不是一开始就堆成全自动多 agent。([OpenAI][1])
+
+---
+
+## 先把这些名词分层
+
+很多 JD 名词其实不是并列的。
+
+### 第一层：基础能力
+
+这是几乎所有版本都会用到的底座。
+
+* Python 工程习惯
+* Prompt 设计
+* 结构化输出
+* JSON / schema
+* 基本模型调用
+
+### 第二层：知识与上下文
+
+这是分析助手最核心的一层。
+
+* RAG
+* chunking
+* retrieval
+* context engineering
+
+Anthropic 近两年把“context engineering”反复提到很高的位置，因为 agent 的效果很大程度上取决于上下文怎么组织，而不只是模型本身。([Anthropic][2])
+
+### 第三层：流程与工具
+
+这是从“会回答”变成“会做事”。
+
+* ReAct
+* workflow
+* function calling
+* tool calling
+
+OpenAI 现在把 Responses API 明确定位为 agentic by default，可以在一次请求里完成多轮工具调用；LangGraph 也把 workflow 和 agent 区分得很清楚：workflow 是预定路径，agent 是动态决定工具与路径。([OpenAI开发者][3])
+
+### 第四层：标准化与工程化
+
+这是“项目像不像正式系统”的分水岭。
+
+* MCP
+* harness
+* eval
+* tracing
+* memory
+* subgraph / multi-agent
+
+MCP 本质上是把 resources、prompts、tools 标准化暴露给客户端；harness 更像 agent 的运行与控制外壳；LangGraph 则提供长流程、有状态、可调试的基础设施。([模型上下文协议][4])
+
+---
+
+## 哪些后面的技术会“覆盖”前面的技术
+
+这里要说得很准确一点：
+
+### 会被“吸收”的
+
+这些东西后面会被更高层包进去，但你还是得先练过。
+
+* **普通 prompt** 会被 schema / structured output 吸收
+* **单步检索** 会被 RAG workflow 吸收
+* **手工调用函数** 会被 function/tool calling 吸收
+* **线性流程** 会被 graph/workflow 吸收
+
+### 不会被“替代”的
+
+这些是后面再高级也绕不过去的底层功。
+
+* schema 设计
+* chunking 思路
+* prompt 调整能力
+* 评测意识
+* 上下文组织
+* 读日志和调试
+
+也就是说，后面的框架不是把前面的能力“淘汰”，而是把它们**装进一个更正式的外壳里**。
+
+---
+
+# 我建议的版本路线：6 个主版本 + 2 个进阶版本
+
+---
+
+## V0：最小可运行版
+
+**功能目标**
+输入一首词，基于前 9 则《人间词话》，输出一段非结构化点评。
+
+**刻意练的技术**
+
+* 基本模型调用
+* prompt 基础写法
+* JSON 文件读取
+* 单文件开发
+
+**这版不碰**
+
+* RAG
+* LangGraph
+* MCP
+* function calling
+* 复杂目录
+
+**你会学到什么**
+
+* 怎么把需求压缩成最小闭环
+* 怎么控制输入输出
+* 怎么先跑通再谈抽象
+
+**JD 覆盖度**
+大概 15%
+还很基础，但它是后面一切的根。
+
+---
+
+## V1：结构化输出版
+
+**功能目标**
+输出固定字段，而不是一坨自然语言。比如：
+
+* 是否有境界
+* 有我 / 无我
+* 隔 / 不隔
+* 简短说明
+* 证据引句
+
+**刻意练的技术**
+
+* schema
+* structured output
+* Pydantic 或等价的数据结构意识
+
+OpenAI 官方现在也一直把结构化输出和 tools 放在 agent 构建的重要能力里。([OpenAI][1])
+
+**这版的意义**
+你第一次从“prompt demo”走向“可程序消费的分析器”。
+
+**JD 覆盖度**
+大概 30%
+
+---
+
+## V2：最小 RAG 版
+
+**功能目标**
+不只靠压缩后的 skill，而是能从前 9 则原文和少量注评中检索依据，再做点评。
+
+**刻意练的技术**
+
+* RAG
+* chunking
+* retrieval top-k
+* context 拼装
+
+这版会碰到你之前提到的那些典型面试问题：
+
+* chunk 怎么切
+* 参数怎么设
+* 检索几条
+* 原文和注评怎么混
+
+这正是很多法律/医疗/企业知识助手都绕不过去的共性问题。([Anthropic][5])
+
+**注意**
+这版可以非常轻，甚至先不用向量库，只做小规模的朴素检索都行。
+
+**JD 覆盖度**
+大概 45%
+
+---
+
+## V3：Workflow / ReAct 版
+
+**功能目标**
+把“分析 → 检索 → 生成”拆成显式步骤，而不是一把梭给模型。
+
+**刻意练的技术**
+
+* ReAct 思路
+* workflow
+* LangGraph 入门
+* state 概念
+
+Anthropic 把 augmented LLM、workflow、agent 视为逐步加复杂度的连续体；LangGraph 也把 workflow 和 agent 做了明确区分。([Anthropic][5])
+
+**你会做的事情**
+可能只是三个节点：
+
+1. 分析问题
+2. 检索证据
+3. 生成点评
+
+这就已经够了。
+
+**JD 覆盖度**
+大概 60%
+
+---
+
+## V4：Function / Tool Calling 版
+
+**功能目标**
+让模型不是“被动接收材料”，而是能主动调用你定义的工具。
+
+**刻意练的技术**
+
+* function calling
+* tool calling
+* tool schema 设计
+* 工具选择逻辑
+
+OpenAI 的 Responses API 把自定义 functions、内置 tools、remote MCP server 都纳入一个 agentic loop 里；LangChain/LangGraph 也提供 ToolNode 这类工具执行节点。([OpenAI开发者][3])
+
+**在你的项目里怎么体现**
+你可以有这些工具：
+
+* `search_primary_text`
+* `search_commentary`
+* `load_scholar_profile`
+* `list_concepts`
+
+**JD 覆盖度**
+大概 75%
+
+---
+
+## V5：Eval / Harness 版
+
+**功能目标**
+让系统可以反复测，不是每次靠感觉说“这次更像王国维了”。
+
+**刻意练的技术**
+
+* evaluation
+* harness
+* tracing
+* 基础 observability
+
+Anthropic 对 harness 的定义很值得借：它不是一个花哨名词，而是 agent 的运行外壳，负责上下文管理、长任务控制、失败恢复等。([Anthropic][6])
+
+**在你的项目里怎么落**
+先别想成超复杂平台。
+你可以先做一个很简单的 harness：
+
+* 读取固定测试集
+* 逐条运行
+* 记录输入 / 检索证据 / 输出
+* 用简单规则或 LLM judge 打分
+
+**这版很重要**
+因为到这里，你已经不是“会做 agent demo”，而是开始像“会调 agent 系统”。
+
+**JD 覆盖度**
+大概 85%
+
+---
+
+## V6：MCP 化版
+
+**功能目标**
+把你现在已有的 scholar profile、文献资源、检索能力，变成标准化可暴露能力。
+
+**刻意练的技术**
+
+* MCP resources
+* MCP prompts
+* MCP tools
+* 接口标准化
+
+MCP 官方把这三类能力定义得很清楚：
+resources 是上下文数据，prompts 是模板化工作流，tools 是可执行函数。([模型上下文协议][4])
+
+**在你的项目里怎么体现**
+你可以暴露：
+
+* 王国维术语表作为 resource
+* 点评模板作为 prompt
+* 文献检索作为 tool
+
+**这一版的意义**
+你开始从“做一个 app”转向“做一层可复用能力”。
+
+**JD 覆盖度**
+大概 90%
+
+---
+
+# 这 6 个版本之后，你已经覆盖了什么
+
+如果做到 V6，你基本能碰到大部分 JD 上高频词：
+
+* RAG
+* chunking
+* retrieval
+* context engineering
+* ReAct / workflow
+* function calling
+* tool calling
+* LangGraph
+* evaluation
+* harness
+* MCP
+* structured output
+
+这已经是很像一个完整 AI 应用岗画像了。([OpenAI][1])
+
+---
+
+# 再往后的 2 个版本，是“进阶覆盖”
+
+---
+
+## V7：Memory / Long-running 版
+
+**功能目标**
+让 scholar-agent 不只是单次点评，而是能持续对话、记住同一用户在同一轮分析里看过什么。
+
+**技术**
+
+* short-term memory
+* checkpointer
+* conversation thread
+
+LangGraph 的 memory 文档里把 short-term memory 直接视为 state 的一部分，并支持持久化恢复。([LangChain 文档][7])
+
+**这一版覆盖的 JD 关键词**
+
+* memory
+* session
+* persistent state
+
+---
+
+## V8：Subgraph / Multi-agent 版
+
+**功能目标**
+从“一个 agent”扩到“多个专长 agent 协作”，比如：
+
+* 王国维 agent
+* 叶嘉莹 agent
+* judge agent
+
+**技术**
+
+* subgraph
+* router
+* multi-agent
+
+LangGraph 支持 subgraph；LangChain 文档也把 router、skills、custom workflow 等多 agent 模式写得很清楚。([LangChain 文档][8])
+
+**但这版我不建议太早做**
+因为它最容易看起来花哨，实际最难调。
+
+---
+
+# AutoGPT 在这套路线里怎么安排
+
+我建议你把 AutoGPT 放在**理解层**，不是实现层。
+
+也就是说：
+
+* 你知道它代表一种 block/workflow/lifecycle 的 agent 产品思路
+* 你不需要为了补名词把主项目迁过去
+
+因为 AutoGPT 现在公开形态已经很明显是平台化 workflow，而不是“必须学会的唯一 agent 框架”。([LangChain 文档][9])
+
+所以在你的路线里：
+
+* **V3–V5** 已经足以“吃掉” AutoGPT 这类系统的很多核心思想
+* 不需要额外单独开一个 AutoGPT 练习版本
+
+---
+
+# 最终会形成怎样的技术栈
+
+如果按这条路线走到 V6–V8，你会形成一套比较成熟的栈：
+
+### 基础层
+
+* Python
+* JSON
+* Pydantic
+* Prompt / structured output
+
+### 知识层
+
+* RAG
+* chunking
+* retrieval
+* context engineering
+
+### 流程层
+
+* LangGraph
+* workflow
+* ReAct
+* function/tool calling
+
+### 工程层
+
+* eval
+* harness
+* tracing
+* memory
+
+### 标准化层
+
+* MCP
+* subgraph / multi-agent
+
+这套东西已经足够覆盖绝大多数 AI 应用岗 JD 的核心内容了。
+再往后更多是**行业领域知识**，比如医疗合规、法律审计，而不是新技术名词。
+
+---
+
+# 如果只做到哪一步，就已经“够找工作”了？
+
+我会这样看：
+
+### 到 V3
+
+已经可以投很多“AI 应用开发 / Agent 初级实现”岗位。
+因为你已经有：
+
+* 结构化输出
+* 最小 RAG
+* workflow
+
+### 到 V5
+
+已经很像一个靠谱的 AI 工程项目。
+因为你还有：
+
+* tools
+* eval
+* harness
+
+### 到 V6
+
+你就开始具备“我不只是会做 demo，我会做可复用能力层”的感觉了。
+
+所以：
+
+> **V5 是比较现实的“成熟线”，V6 是比较漂亮的“加分线”。**
+
+---
+
+# 你这个项目路线最好的地方
+
+它不是“为了学名词而学名词”，而是：
+
+* 每一版都能交付一点功能
+* 每一版都刻意练一个新技术动作
+* 后面的技术会包住前面的能力，但不会浪费前面的练习
+
+这和你说的拜厄练习曲非常像。
+不是每首都要炫技，而是每首都在训练某一块基本功。
+
+---
+
+下一步最适合做的，就是把这 6–8 个版本真的排成一张表：
+**每版一句功能目标、一句学习目标、一个验收标准。**
+这样你以后开发时就不会一边写一边慌。
+
+[1]: https://openai.com/business/guides-and-resources/a-practical-guide-to-building-ai-agents/?utm_source=chatgpt.com "A practical guide to building agents"
+[2]: https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents?utm_source=chatgpt.com "Effective context engineering for AI agents"
+[3]: https://developers.openai.com/api/docs/guides/migrate-to-responses?utm_source=chatgpt.com "Migrate to the Responses API"
+[4]: https://modelcontextprotocol.io/specification/2025-11-25?utm_source=chatgpt.com "Specification"
+[5]: https://www.anthropic.com/research/building-effective-agents?utm_source=chatgpt.com "Building Effective AI Agents"
+[6]: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents?utm_source=chatgpt.com "Effective harnesses for long-running agents"
+[7]: https://docs.langchain.com/oss/python/langgraph/memory?utm_source=chatgpt.com "Memory overview - Docs by LangChain"
+[8]: https://docs.langchain.com/oss/python/langgraph/use-subgraphs?utm_source=chatgpt.com "Subgraphs - Docs by LangChain"
+[9]: https://docs.langchain.com/oss/python/langchain/multi-agent?utm_source=chatgpt.com "Multi-agent - Docs by LangChain"
+
+
+太好了，这一步其实非常关键。很多项目做不下去，就是因为**没有明确的“练习曲谱”**，结果写两天就开始迷茫。我们现在就把 **Scholar-Agent 项目排成一个清晰的版本表**，像钢琴教材一样，每一版只练一个重点。
+
+我会给你三层信息：
+
+1️⃣ **版本目标（做出什么）**
+2️⃣ **技术练习（学什么）**
+3️⃣ **验收标准（做到什么算完成）**
+
+并且我会特别标出 **JD 覆盖的技术词**。
+
+---
+
+# Scholar-Agent 项目版本路线
+
+## V0 — 最小可运行版
+
+**阶段目标**
+
+输入一首词 → 输出一段王国维风格点评
+
+**功能**
+
+```
+词文本 → prompt → LLM → 输出点评
+```
+
+**技术练习**
+
+* Python 基本结构
+* prompt 写法
+* API 调用
+* JSON 文件读取
+
+**代码形态**
+
+```
+main.py
+王国维.json
+```
+
+只有一个文件。
+
+**验收标准**
+
+程序能做到：
+
+```
+输入：青玉案·元夕
+输出：一段类似王国维的点评
+```
+
+**JD覆盖**
+
+```
+LLM API
+Prompt Engineering
+```
+
+---
+
+# V1 — 结构化分析版
+
+**阶段目标**
+
+点评不再是一段话，而是结构化结果。
+
+例如：
+
+```
+{
+  "境界": "有境界",
+  "类型": "无我之境",
+  "评价": "此句以灯火与回首表现顿悟之境",
+  "证据": "灯火阑珊处"
+}
+```
+
+**功能**
+
+```
+词 → 模型 → JSON分析
+```
+
+**技术练习**
+
+* schema设计
+* structured output
+* JSON解析
+
+**新增代码**
+
+可能出现第一个函数：
+
+```
+analyze_poem()
+```
+
+**验收标准**
+
+程序输出 **固定字段 JSON**
+
+**JD覆盖**
+
+```
+Structured Output
+Schema Design
+JSON Parsing
+```
+
+---
+
+# V2 — 最小RAG版
+
+**阶段目标**
+
+模型分析时能引用《人间词话》原文。
+
+**功能**
+
+```
+词 → 检索词话 → 拼接上下文 → LLM分析
+```
+
+例如模型输入变成：
+
+```
+词：
+青玉案·元夕
+
+参考材料：
+词以境界为最上……
+境非独谓景物……
+```
+
+**技术练习**
+
+* RAG
+* chunk
+* top-k检索
+* context engineering
+
+**代码变化**
+
+可能新增文件：
+
+```
+retrieval.py
+```
+
+**验收标准**
+
+模型输出时能引用：
+
+```
+王国维认为“境界为最上”
+```
+
+**JD覆盖**
+
+```
+RAG
+Chunking
+Retrieval
+Vector Search
+```
+
+---
+
+# V3 — Workflow / ReAct版
+
+**阶段目标**
+
+把任务拆成步骤，而不是一次生成。
+
+流程变成：
+
+```
+Step1：理解词
+Step2：检索材料
+Step3：形成评价
+```
+
+**技术练习**
+
+* workflow
+* ReAct
+* 状态流转
+
+**技术框架**
+
+这里可以引入：
+
+```
+LangGraph
+```
+
+结构可能变成：
+
+```
+analysis_node
+retrieval_node
+review_node
+```
+
+**验收标准**
+
+程序日志能看到：
+
+```
+Step1 reasoning
+Step2 retrieval
+Step3 answer
+```
+
+**JD覆盖**
+
+```
+ReAct
+Agent Workflow
+LangGraph
+State Graph
+```
+
+---
+
+# V4 — Tool / Function Calling版
+
+**阶段目标**
+
+模型可以主动调用工具。
+
+例如：
+
+```
+模型：需要查找王国维关于境界的论述
+→ 调用 tool: search_concept
+```
+
+**技术练习**
+
+* function calling
+* tool calling
+* tool schema
+
+**工具示例**
+
+```
+search_wangguowei()
+search_commentary()
+list_concepts()
+```
+
+**代码变化**
+
+出现：
+
+```
+tools.py
+```
+
+**验收标准**
+
+日志出现：
+
+```
+LLM → call tool
+tool → return
+LLM → final answer
+```
+
+**JD覆盖**
+
+```
+Function Calling
+Tool Calling
+Agent Tooling
+```
+
+---
+
+# V5 — Evaluation / Harness版
+
+**阶段目标**
+
+系统可以自动评估自己。
+
+例如：
+
+测试集：
+
+```
+青玉案元夕
+蝶恋花
+鹊桥仙
+```
+
+自动输出：
+
+```
+评分
+解释
+是否符合王国维理论
+```
+
+**技术练习**
+
+* evaluation
+* harness
+* logging
+* trace
+
+**代码新增**
+
+```
+eval.py
+testset.json
+```
+
+**验收标准**
+
+运行：
+
+```
+python eval.py
+```
+
+输出：
+
+```
+accuracy: 0.72
+平均评分: 4.1
+```
+
+**JD覆盖**
+
+```
+Evaluation
+Harness
+LLM-as-judge
+Tracing
+```
+
+---
+
+# V6 — MCP标准化版
+
+**阶段目标**
+
+把项目能力变成 **MCP Server**
+
+让外部 agent 能调用。
+
+**技术练习**
+
+* MCP resources
+* MCP prompts
+* MCP tools
+
+**暴露能力**
+
+```
+resource: wangguowei_notes
+prompt: critique_poem
+tool: search_poem_reference
+```
+
+**验收标准**
+
+Claude Desktop / Cursor 能直接调用：
+
+```
+scholar-agent
+```
+
+**JD覆盖**
+
+```
+MCP
+Agent Platform
+AI Tool Server
+```
+
+---
+
+# V7 — Memory版
+
+**阶段目标**
+
+系统能记住用户之前讨论的词。
+
+**技术练习**
+
+* memory
+* session
+* state persistence
+
+**例如**
+
+用户：
+
+```
+刚才我们讨论过苏轼，现在再看看秦观
+```
+
+系统仍然知道之前上下文。
+
+**JD覆盖**
+
+```
+Memory
+Session
+Context Store
+```
+
+---
+
+# V8 — Multi-Agent版
+
+**阶段目标**
+
+多个学者 agent 互相讨论。
+
+例如：
+
+```
+王国维 agent
+叶嘉莹 agent
+Judge agent
+```
+
+输出：
+
+```
+三方评论 + 综合结论
+```
+
+**技术练习**
+
+* multi-agent
+* routing
+* subgraph
+
+**JD覆盖**
+
+```
+Multi-Agent
+Router
+Agent Collaboration
+```
+
+---
+
+# 整体版本路线图
+
+```
+V0   最小demo
+V1   结构化输出
+V2   RAG
+V3   Workflow / ReAct
+V4   Tool Calling
+V5   Eval / Harness
+V6   MCP Server
+V7   Memory
+V8   Multi-Agent
+```
+
+---
+
+# JD覆盖率
+
+大概情况：
+
+| 版本 | JD覆盖 |
+| -- | ---- |
+| V0 | 15%  |
+| V1 | 30%  |
+| V2 | 45%  |
+| V3 | 60%  |
+| V4 | 75%  |
+| V5 | 85%  |
+| V6 | 90%  |
+| V7 | 92%  |
+| V8 | 95%  |
+
+其实：
+
+**做到 V5 就已经非常有说服力。**
+
+---
+
+# 最重要的一点
+
+这个路线最大的好处是：
+
+**每一版都是可运行产品**
+
+不是：
+
+```
+学框架 → 学框架 → 学框架
+```
+
+而是：
+
+```
+产品 → 更强产品 → 更像系统
+```
+
+---
+
+如果你愿意，我可以再帮你做一件很重要的事：
+
+**把整个项目拆成 20 个开发任务（像真实公司 backlog 一样）。**
+
+那样你每天只需要完成：
+
+```
+一个任务
+```
+
+不会焦虑，不会迷路。
+

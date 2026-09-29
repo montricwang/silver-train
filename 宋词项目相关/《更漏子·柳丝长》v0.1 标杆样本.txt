@@ -1,0 +1,419 @@
+《更漏子·柳丝长》v0.1 标杆样本
+poem:
+  title: "更漏子"
+  first_line: "柳丝长"
+  author: "温庭筠"
+  dynasty: "唐(晚唐)"
+  ci_pai: "更漏子"
+  text: |
+    柳丝长,春雨细,花外漏声迢递。
+    惊塞雁,起城乌,画屏金鹧鸪。
+    香雾薄,透帘幕,惆怅谢家池阁。
+    红烛背,绣帘垂,梦长君不知。
+
+# ===== 视图一:句眼与炼字 =====
+view_1_diction:
+  - target: "迢递"
+    location: "上片第三句:花外漏声迢递"
+    literal_meaning: "形容声音由远而至、连绵不绝"
+    syntactic_role: "状语,修饰漏声"
+    counterfactual:
+      - replacement: "断续"
+        loss: "失去声音的连续性,变成时有时无的状态,无法表达失眠者整夜不绝的听觉感受"
+      - replacement: "清晰"
+        loss: "失去经过空间过滤的层次感,漏声变成近处的清楚滴答,失去'花外'的距离感"
+      - replacement: "细密"
+        loss: "只剩下声音的密度,失去空间穿透的距离感"
+    structural_function: "确立全词的核心听觉基调——漏声从远处迢递而至,是后续'惊塞雁、起城乌'的源头"
+    why_irreplaceable: "迢递二字同时包含了距离感(远)、连续性(不绝)、穿透力(从花外到屋内),是温庭筠对漏声本质的精确捕捉"
+
+  - target: "惊"
+    location: "上片第四句:惊塞雁"
+    literal_meaning: "受惊而起"
+    syntactic_role: "动词,谓语,主语隐含为'漏声'"
+    counterfactual:
+      - replacement: "鸣"
+        loss: "塞雁变成主动发声,失去被外界惊动的被动性"
+      - replacement: "唤"
+        loss: "失去突然性,变成温和的呼唤"
+      - replacement: "动"
+        loss: "失去机敏感,塞雁的反应变得迟钝"
+    structural_function: "与下句'起城乌'共同构成动词序列,但'惊'比'起'更突然——塞雁是机敏的,所以是'惊';城乌是迟钝的,所以是'起'。两个动词精确对应了两种鸟的性格差异。"
+    why_irreplaceable: "'惊'必须用在塞雁上,'起'必须用在城乌上,不能互换——这是温庭筠对禽鸟习性的精确观察"
+
+  - target: "起"
+    location: "上片第五句:起城乌"
+    literal_meaning: "起身、飞起"
+    syntactic_role: "动词,谓语,主语隐含"
+    counterfactual:
+      - replacement: "惊"
+        loss: "城乌不如塞雁机敏,'惊'用在城乌身上力度过强"
+      - replacement: "飞"
+        loss: "失去从静止到运动的过渡感"
+      - replacement: "啼"
+        loss: "城乌变成发声主体,与下句'画屏金鹧鸪'的不发声状态失去对照"
+    structural_function: "构成'惊塞雁→起城乌→画屏金鹧鸪'的活物到死物的渐进序列"
+    why_irreplaceable: "'起'的力度恰好匹配城乌的迟钝,而且为下句的'不动'留出对照空间"
+
+  - target: "画"
+    location: "上片第六句:画屏金鹧鸪"
+    literal_meaning: "绘画的"
+    syntactic_role: "形容词,定语"
+    counterfactual:
+      - replacement: "锦"
+        loss: "鹧鸪变成织物上的图案,失去'画'特有的凝固感"
+      - replacement: "雕"
+        loss: "鹧鸪变成立体雕塑,有体积感但失去平面凝固的特质"
+      - replacement: (省略,直接"屏上金鹧鸪")
+        loss: "失去'画'对'活'的明确否定——画屏意味着这只鹧鸪永远是图像,不会动"
+    structural_function: "全句的关键定语——'画'字直接锁死了鹧鸪的'不动'本质,与上两句的'惊'和'起'形成最强烈的对照"
+    why_irreplaceable: "'画'字是这一句之所以成为温词标杆的核心——它把活物彻底转化为屏风上的纹样"
+
+  - target: "薄"
+    location: "下片第一句:香雾薄"
+    literal_meaning: "稀薄、不浓"
+    syntactic_role: "形容词,谓语"
+    counterfactual:
+      - replacement: "浓"
+        loss: "失去雾的穿透性,香气变成浓重不透的封闭感"
+      - replacement: "淡"
+        loss: "只剩下气味的弱,失去雾的物质感"
+      - replacement: "散"
+        loss: "雾变成主动消散的过程,失去静态弥漫的状态"
+    structural_function: "与下句'透帘幕'呼应——只有'薄'的雾才能'透',这是物理逻辑也是情感逻辑(微弱但无处不在)"
+    why_irreplaceable: "'薄'的状态正对应失眠者的弥漫性焦虑——不强烈但持续渗透"
+
+  - target: "背"
+    location: "下片第四句:红烛背"
+    literal_meaning: "背向、被遮挡"
+    syntactic_role: "动词作形容词,描述烛的状态"
+    counterfactual:
+      - replacement: "明"
+        loss: "失去光线被遮挡的私密感,烛光变成正常照明"
+      - replacement: "残"
+        loss: "失去主动遮挡的人为意味,只剩下烛将尽的客观状态"
+      - replacement: "暗"
+        loss: "只剩下光弱,失去'背向'这一空间方位的暗示"
+    structural_function: "与下句'绣帘垂'共同构成室内空间的封闭——光被遮、帘被垂,女子主动把自己关在最内层"
+    why_irreplaceable: "'背'字暗示了一个动作主体——是有人把烛光转向背面,这个隐含的动作主体就是失眠的女子"
+
+  - target: "长"
+    location: "下片末句:梦长君不知"
+    literal_meaning: "长久、漫长"
+    syntactic_role: "形容词,谓语"
+    counterfactual:
+      - replacement: "深"
+        loss: "梦变成深度的概念,失去时间维度上的延展"
+      - replacement: "残"
+        loss: "梦变成将醒未醒的状态,失去主观时间感"
+      - replacement: "浓"
+        loss: "梦变成情感强度,失去时间维度"
+    structural_function: "全词最后一个客观时间词被替换为主观时间词——'长'是失眠者心理上的长,不是物理时间的长。这一字把整首词的客观环境时间(漏声、雁、乌、雾)收束到主观心理时间。"
+    why_irreplaceable: "'长'字承担了全词时间的转化——从客观到主观、从环境到内心。最后一字定整首词的时间性。"
+
+# ===== 视图二:化用谱系 =====
+view_2_allusion:
+  - phrase: "谢家池阁"
+    location: "下片第三句:惆怅谢家池阁"
+    source:
+      origin: "谢家"
+      type: "代称典故"
+      tradition: "唐宋诗词中以'谢家'代指美人居所的传统,源自李德裕《谢秋娘》"
+      evidence_works:
+        - "李德裕《谢秋娘》"
+        - "唐代诸多以'谢娘'代美人的诗作"
+    function_in_this_poem: "为闺房空间提供文化坐标——读者看到'谢家'自动识别这是高级女性空间,无需进一步说明"
+    notes: "此处不是确指谢氏某人,是符号性使用"
+
+  - phrase: "更漏"
+    location: "整首词的核心意象"
+    source:
+      origin: "古代漏壶计时器"
+      type: "器物意象"
+      tradition: "魏晋以来'更漏'作为夜晚时间流逝的标志,大量出现于宫怨、闺怨诗词"
+      evidence_works:
+        - "庾信《奉和山池》'高阁千寻起,长廊四注连'(漏意象的早期出现)"
+        - "白居易《长恨歌》'迟迟钟鼓初长夜,耿耿星河欲曙天'(漏的同类时间标记)"
+    function_in_this_poem: "不仅是时间标记,词牌《更漏子》本身就以漏为内容核心,温庭筠让漏声从词牌进入正文,完成形式与内容的统一"
+    notes: "此处漏声成为全词的结构性核心,不只是装饰意象"
+
+# ===== 视图三:意象网络 =====
+view_3_imagery:
+  imagery_list:
+    - name: "柳丝"
+      attributes:
+        season: "春"
+        sense: "视觉"
+        temperature: "温和偏冷"
+        movement: "动(柔软飘动)"
+        space: "外"
+      tradition_tags: ["送别", "缠绵", "春暮"]
+
+    - name: "春雨"
+      attributes:
+        season: "春"
+        sense: "视觉+触觉"
+        temperature: "凉"
+        movement: "动(细密落下)"
+        space: "外"
+      tradition_tags: ["细密", "持续", "暮春"]
+
+    - name: "漏声"
+      attributes:
+        sense: "听觉"
+        movement: "动(滴答持续)"
+        space: "外→内(穿透)"
+        time_marker: true
+      tradition_tags: ["夜晚", "失眠", "时间流逝"]
+
+    - name: "塞雁"
+      attributes:
+        sense: "听觉(隐含)+视觉"
+        movement: "动(被惊起)"
+        space: "极外(边塞)"
+      tradition_tags: ["远方", "羁旅", "秋"]
+
+    - name: "城乌"
+      attributes:
+        sense: "听觉(隐含)+视觉"
+        movement: "动(起飞)"
+        space: "中外(城楼)"
+      tradition_tags: ["夜晚", "城市边缘"]
+
+    - name: "画屏金鹧鸪"
+      attributes:
+        sense: "视觉"
+        movement: "静(永不动)"
+        space: "内(屋内屏风)"
+        is_artwork: true
+      tradition_tags: ["闺房器物", "凝固之美"]
+
+    - name: "香雾"
+      attributes:
+        sense: "嗅觉+视觉"
+        movement: "弥漫"
+        space: "内"
+      tradition_tags: ["闺房", "薰香"]
+
+    - name: "帘幕"
+      attributes:
+        sense: "视觉"
+        movement: "静"
+        space: "内(分隔)"
+      tradition_tags: ["闺房", "私密空间"]
+
+    - name: "红烛"
+      attributes:
+        sense: "视觉"
+        movement: "静(被遮)"
+        space: "内(更内层)"
+      tradition_tags: ["夜晚", "孤独"]
+
+    - name: "绣帘"
+      attributes:
+        sense: "视觉"
+        movement: "静(垂下)"
+        space: "内(最内层)"
+      tradition_tags: ["闺房", "封闭"]
+
+    - name: "梦"
+      attributes:
+        sense: "内省"
+        movement: "主观时间延展"
+        space: "心(最深处)"
+      tradition_tags: ["相思", "无法共享"]
+
+  network_structure:
+    type: "同心圆内卷"
+    layers:
+      - layer_name: "最外层(自然界)"
+        members: ["柳丝", "春雨", "塞雁"]
+      - layer_name: "中层(城市)"
+        members: ["城乌"]
+      - layer_name: "内层(花外、墙边)"
+        members: ["漏声"]
+        note: "漏声是穿透所有层的关键线索"
+      - layer_name: "屋层(室内可见)"
+        members: ["画屏金鹧鸪", "香雾", "帘幕", "红烛", "绣帘"]
+      - layer_name: "核心(最内层)"
+        members: ["梦", "君"]
+
+    cross_layer_connector: "漏声"
+    connector_function: "唯一贯通所有空间层的元素——从花外迢递而至,惊起塞雁城乌,渗入画屏的房间,透过香雾帘幕,最后到达梦中"
+
+    key_contrast:
+      - type: "动 vs 不动"
+        active_members: ["塞雁(被惊)", "城乌(起)"]
+        static_members: ["画屏金鹧鸪(永远不动)"]
+        function: "通过活物到死物的并置,把女子比拟为屏风上的鹧鸪——不能动、不能叫、被困在房间里"
+
+# ===== 视图四:时空结构 =====
+view_4_spacetime:
+  per_line:
+    - line: "柳丝长,春雨细"
+      time: "暮春,持续状态"
+      space: "户外远景"
+      perspective: "看(远)"
+
+    - line: "花外漏声迢递"
+      time: "夜里,持续滴答"
+      space: "墙外→屋内"
+      perspective: "听"
+
+    - line: "惊塞雁"
+      time: "瞬间(雁起的瞬间)"
+      space: "极远(边塞)"
+      perspective: "听+想象远景"
+
+    - line: "起城乌"
+      time: "瞬间"
+      space: "中距离(城楼)"
+      perspective: "听+想象中景"
+
+    - line: "画屏金鹧鸪"
+      time: "凝固(永远不动)"
+      space: "屋内"
+      perspective: "看(近)"
+
+    - line: "香雾薄,透帘幕"
+      time: "持续(雾在弥漫)"
+      space: "屋内"
+      perspective: "嗅+触"
+
+    - line: "惆怅谢家池阁"
+      time: "弥漫的情绪状态"
+      space: "整个房屋空间"
+      perspective: "内"
+
+    - line: "红烛背,绣帘垂"
+      time: "静止的状态"
+      space: "屋内最内层"
+      perspective: "看(近)"
+
+    - line: "梦长君不知"
+      time: "主观'长'(失眠者的心理时间)"
+      space: "心(最内)→不在场的'君'(最外)"
+      perspective: "内省"
+
+  key_observations:
+    dominant_time_state: "持续(几乎没有'瞬间动作',只有状态)"
+    only_two_instant_actions: ["惊塞雁", "起城乌"]
+    time_pattern_observation: "唯一两个瞬间动作被夹在大量持续状态中,反而显得整个夜都凝固了"
+    final_time_shift: "末句'梦长'是主观时间词,把前面所有客观时间收束到女子的心理感受里"
+    space_pattern: "同心圆内卷——从极远(塞)→中(城)→近(屋)→更近(烛、帘)→最深(梦),最后又跳到不在场的'君'"
+    final_space_jump: "末句'君不知'是空间上的最远跳——前面所有空间都在收缩,最后突然指向一个不在场的远方"
+
+# ===== 视图五:声律节奏 =====
+view_5_prosody:
+  ci_pai_pattern:
+    name: "更漏子"
+    structure: "双调,上下片各六句"
+    rhyme_scheme: "前三句仄韵,后三句平韵(上下片均如此)"
+    line_pattern: "三-三-六 / 三-三-六"
+    pattern_significance: "三字短句的并列模拟漏声的滴答节奏,六字句填入漏声之间的间歇"
+
+  rhymes:
+    upper_stanza:
+      sub_part_1: # 前三句仄韵
+        rhyme_chars: ["细", "递"]
+        rhyme_category: "仄(去声)"
+        effect: "短促收束,模拟漏声的滴落"
+      sub_part_2: # 后三句平韵
+        rhyme_chars: ["乌", "鸪"]
+        rhyme_category: "平"
+        effect: "延展,模拟漏声之间的余响"
+
+    lower_stanza:
+      sub_part_1:
+        rhyme_chars: ["幕", "阁"]
+        rhyme_category: "仄(入声)"
+        effect: "急促,与上片仄韵呼应"
+      sub_part_2:
+        rhyme_chars: ["垂", "知"]
+        rhyme_category: "平"
+        effect: "延展,但末字'知'平声延展产生未完成感"
+
+  rhythm_features:
+    - feature: "三字句并列"
+      effect: "模拟漏声滴答的二拍节奏"
+      example: "'柳丝长,春雨细'两个三字句的并列像两滴漏"
+
+    - feature: "仄→平的韵脚转换"
+      effect: "短促收束→延展余响的呼吸节奏"
+      mapping_to_emotion: "对应情绪的'紧绷→放松→紧绷→放松'的循环"
+
+  final_character_analysis:
+    char: "知"
+    tone: "平"
+    effect: "末字平声延展,使全词在未完成的悬置感中结束——梦没有醒,等待没有终结"
+
+  prosody_content_unity: "词牌名为《更漏子》,温庭筠让整首词的声律节奏成为漏声本身——这是形式与内容高度统一的极致案例"
+
+# ===== 视图六:历代评论 =====
+view_6_commentary:
+  - critic: "王国维"
+    work: "《人间词话》"
+    quote_original: "温飞卿之词,'画屏金鹧鸪'是也。"
+    context: "王国维以此句作为温庭筠词风的代表标本,用以区分温、韦、李后主三家"
+    interpretation_note: "王国维的判断是辨识性的,不是赞叹性的。他把温词归为'句秀'一路,与他更看重的'神秀''骨秀'有别"
+
+  - critic: "陈廷焯"
+    work: "《白雨斋词话》"
+    quote_original: "飞卿词如古玉夔纹,沉郁古艳。"
+    context: "陈廷焯对温词的整体评价"
+    interpretation_note: "'古玉夔纹'四字指出温词的质感是凝固的、有花纹的、需要慢慢摩挲的——这首《更漏子》正是如此"
+
+  - critic: "周济"
+    work: "《介存斋论词杂著》"
+    quote_original: "针缕之密,南宋人始露痕迹,《花间》极有浑厚气象。如飞卿则神理超越,不复可以迹象求矣,然细绎之,正字字有脉络。"
+    context: "周济对花间词派整体的判断"
+    interpretation_note: "周济点出温词'神理超越'但'字字有脉络'——这首词正是如此,表面看片段跳脱,细读则每个字都有结构功能"
+
+  - critic: "张惠言"
+    work: "《词选》"
+    quote_original: "(对温词的整体性政治化解读,认为词中常含'感士不遇'之意)"
+    context: "常州词派对温词的著名误读"
+    interpretation_note: "此说今多不取——温词的'无主体性'允许后世投射各种解读,但未必是温庭筠原意。这条评论作为'解读史'的一部分保留"
+
+  - critic: "叶嘉莹"
+    work: "《唐宋词十七讲》及《迦陵论词丛稿》"
+    quote_original: "(论温词'以物的描写代替情的抒发')"
+    context: "现代学术对温词核心特征的概括"
+    interpretation_note: "叶氏指出温词的核心是'美感的纯粹呈现'——这首《更漏子》正是这种纯粹呈现的典范"
+
+# ===== 视图七:整体审美机制(综合判断) =====
+view_7_synthesis:
+  core_aesthetic_mechanism:
+    one_sentence: "通过漏声作为穿透性听觉线索,把外部世界的活物逐步收束为屋内的器物纹样,最终凝结于主观时间中的梦——制造一个失眠女子被时间和空间双重包裹的春夜空间。"
+
+  three_pillar_imagery:
+    pillar_1:
+      name: "漏声"
+      type: "听觉/动/时间"
+      function: "流动的、不可捕捉的、却又精确滴答的时间"
+
+    pillar_2:
+      name: "画屏金鹧鸪"
+      type: "视觉/静/物"
+      function: "凝固的、华丽的、永远静止的物——女子的镜像"
+
+    pillar_3:
+      name: "梦"
+      type: "内省/主观时间/无法共享"
+      function: "私密的、漫长的、无人知晓的存在"
+
+  three_pillar_relationship: "漏声在动,画屏不动,梦在心里独自长。三种状态在同一首词里并置,构成温词最核心的结构:外面的世界在流动(漏声、雁、乌、雾),屋里的世界在凝固(画屏、红烛、绣帘),最深处的世界在静默地等待(梦、君不知)。"
+
+  why_high_level: "温庭筠的工作不是诉说情感,而是把情感外化为氛围。他让漏声替女子数数,让画屏替她不动,让梦替她长。最后的'君不知'三字才把这一切的指向点破——所有这一切,你都不知道。这是温词最深的品质:把一切诉说,藏在不诉说之中。"
+
+  positioning_in_ci_history: "这种'氛围式抒情'是温庭筠的开创性贡献,被《花间》一派全盘继承,影响了五代南唐词,推动北宋早期词向'温柔敦厚'方向发展。中国词史的一个重要分支正从这种写法开始。"
+
+# ===== 元数据 =====
+metadata:
+  framework_version: "v0.1"
+  manual_curation: true
+  curator_note: |
+    此样本为人工标杆,作为系统 few-shot 的种子。
+    后续小模型输出应对照此样本评估质量。
+    重点参照:反事实测试的具体性、视图间的相互呼应、
+    历代评论的原文引用方式、整体机制总结的具体落点。
