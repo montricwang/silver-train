@@ -1,0 +1,152 @@
+"""把数据库中的完整诗词转换成结构化 LLM 赏析。"""
+
+from __future__ import annotations
+
+import json
+import re
+
+from app.models.poem import PoemModel
+from app.schemas.analysis import PoemAnalysis
+from app.services.llm_client import chat_completion
+
+
+# ============================================================================
+# 提示词构造
+# ============================================================================
+
+
+def build_poem_text_for_prompt(poem: PoemModel) -> str:
+    """把 ORM 中分层保存的片段和词句整理成带编号的提示词文本。"""
+    sections = sorted(poem.sections, key=lambda section: section.section_no)
+
+    blocks: list[str] = []
+
+    for section in sections:
+        section_name = section.section_name or "正文"
+        lines = sorted(section.lines, key=lambda line: line.global_line_no)
+
+        block_lines = [f"【{section_name}】"]
+
+        for line in lines:
+            block_lines.append(
+                f"{line.global_line_no}. "
+                f"({section_name}第{line.section_line_no}句) "
+                f"{line.text}"
+            )
+
+        blocks.append("\n".join(block_lines))
+
+    return "\n\n".join(blocks)
+
+
+def extract_json(text: str) -> str:
+    """提取 LLM 文本中的 JSON，兼容模型擅自添加 Markdown 代码围栏的情况。"""
+    text = text.strip()
+
+    fenced = re.search(r"```(?:json)?\s*(.*?)```", text, re.S)
+    if fenced:
+        return fenced.group(1).strip()
+
+    return text
+
+
+def build_analysis_prompt(poem: PoemModel) -> list[dict[str, str]]:
+    """根据一首词生成 Chat Completions 所需的 system/user 消息列表。"""
+    poem_text = build_poem_text_for_prompt(poem)
+
+    title_part = f"《{poem.tune_name}"
+    if poem.title:
+        title_part += f"·{poem.title}"
+    title_part += "》"
+
+    preface_part = poem.preface or "无"
+
+    system_prompt = (
+        "你是一名宋词赏析助手。"
+        "你的任务是基于给定原文做解释，不要编造作者生平、写作背景或不存在的典故。"
+        "请输出严格 JSON，不要输出 Markdown，不要添加额外说明。"
+    )
+
+    user_prompt = f"""
+请分析下面这首宋词。
+
+作者：{poem.author}
+词牌：{poem.tune_name}
+宫调：{poem.musical_mode or "无"}
+题名：{poem.title or "无"}
+题序：{preface_part}
+
+原文分句如下：
+{poem_text}
+
+请严格按照下面 JSON 结构输出：
+
+{{
+  "poem_id": "{poem.poem_id}",
+  "tune_name": "{poem.tune_name}",
+  "title": {json.dumps(poem.title, ensure_ascii=False)},
+  "summary": "整首词的大意，控制在 150 字以内",
+  "emotional_flow": "说明情感如何推进，控制在 150 字以内",
+  "style": "说明语言风格和艺术特点，控制在 150 字以内",
+  "imagery": [
+    {{
+      "image": "意象名称",
+      "meaning": "这个意象在词中的作用"
+    }}
+  ],
+  "line_explanations": [
+    {{
+      "global_line_no": 1,
+      "section_name": "上片",
+      "section_line_no": 1,
+      "original": "原句",
+      "translation": "白话翻译",
+      "explanation": "简要赏析"
+    }}
+  ]
+}}
+
+要求：
+1. line_explanations 必须覆盖每一个原文分句。
+2. global_line_no、section_line_no 必须和原文编号一致。
+3. original 必须逐字复制原句，不要改写。
+4. translation 用现代汉语解释句意。
+5. explanation 说明这一句的情感、意象、语气或结构作用。
+6. 如果不确定典故，不要硬说。
+""".strip()
+
+    return [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt},
+    ]
+
+
+# ============================================================================
+# 主流程
+# ============================================================================
+
+
+async def analyze_poem(poem: PoemModel) -> PoemAnalysis:
+    """为一首词请求 LLM 赏析，并返回校验后的 PoemAnalysis。"""
+    # 步骤 ① 构造包含完整词结构说明的提示词
+    messages = build_analysis_prompt(poem)
+
+    # 步骤 ② 请求 LLM；网络、认证、超时异常由 llm_client 统一处理
+    raw_text = await chat_completion(
+        messages=messages,
+        temperature=0.2,
+    )
+
+    # 步骤 ③ 从 LLM 返回文本中提取 JSON（兼容 Markdown 代码围栏）
+    json_text = extract_json(raw_text)
+
+    # 步骤 ④ 解析 JSON；不符合 JSON 格式时抛异常，不进入后续校验
+    try:
+        data = json.loads(json_text)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"模型没有返回合法 JSON：{raw_text}") from exc
+
+    # 步骤 ⑤ 用 Pydantic 校验结构；不符合约定结构的 LLM 输出不会进入 API 响应
+    analysis = PoemAnalysis.model_validate(data)
+
+    return analysis
