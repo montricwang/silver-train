@@ -1,0 +1,46 @@
+{
+  "chunk_size": 400,
+  "chunk_overlap": 80,
+  "total_files": 498,
+  "total_text_chars": 839617,
+  "total_chinese_chars": 686166,
+  "total_chunks": 2864,
+  "per_book": {
+    "人间词话全译释评": {
+      "file_count": 118,
+      "text_chars": 119680,
+      "chinese_chars": 93075,
+      "chunk_count": 429
+    },
+    "人间词话精读": {
+      "file_count": 71,
+      "text_chars": 370554,
+      "chinese_chars": 314240,
+      "chunk_count": 1193
+    },
+    "人间词话讲疏": {
+      "file_count": 7,
+      "text_chars": 79173,
+      "chinese_chars": 64254,
+      "chunk_count": 251
+    },
+    "人间词话（叶嘉莹讲评本）": {
+      "file_count": 231,
+      "text_chars": 108639,
+      "chinese_chars": 85187,
+      "chunk_count": 454
+    },
+    "人间词话（彭玉平译注）": {
+      "file_count": 66,
+      "text_chars": 101060,
+      "chinese_chars": 83430,
+      "chunk_count": 345
+    },
+    "人间词话（徐调孚校注）": {
+      "file_count": 5,
+      "text_chars": 60511,
+      "chinese_chars": 45980,
+      "chunk_count": 192
+    }
+  }
+}

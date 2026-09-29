@@ -1,0 +1,370 @@
+[
+    {
+        "id": 101,
+        "text": "酒入愁肠，化作相思泪",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 102,
+        "text": "明月楼高休独倚",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 103,
+        "text": "拟把疏狂图一醉",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 104,
+        "text": "为伊消得人憔悴",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 105,
+        "text": "无可奈何花落去，似曾相识燕归来",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.7
+    },
+    {
+        "id": 106,
+        "text": "满目山河空念远，落花风雨更伤春",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 107,
+        "text": "天涯地角有穷时，只有相思无尽处",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 108,
+        "text": "多情自古伤离别，更那堪、冷落清秋节",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 109,
+        "text": "落花人独立，微雨燕双飞",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.6
+    },
+    {
+        "id": 110,
+        "text": "今宵剩把银釭照，犹恐相逢是梦中",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 111,
+        "text": "云破月来花弄影",
+        "task": "type",
+        "gold": "无我",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 112,
+        "text": "红杏枝头春意闹",
+        "task": "type",
+        "gold": "无我",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 113,
+        "text": "双燕归来细雨中",
+        "task": "type",
+        "gold": "无我",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 114,
+        "text": "碧云天，黄叶地",
+        "task": "type",
+        "gold": "无我",
+        "source": "researcher",
+        "confidence": 0.7
+    },
+    {
+        "id": 115,
+        "text": "秋色连波，波上寒烟翠",
+        "task": "type",
+        "gold": "无我",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 116,
+        "text": "山映斜阳天接水",
+        "task": "type",
+        "gold": "无我",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 117,
+        "text": "沙上并禽池上暝",
+        "task": "type",
+        "gold": "无我",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 118,
+        "text": "小园香径独徘徊",
+        "task": "type",
+        "gold": "有我",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 119,
+        "text": "碧云天，黄叶地",
+        "task": "scale",
+        "gold": "大",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 120,
+        "text": "秋色连波，波上寒烟翠",
+        "task": "scale",
+        "gold": "大",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 121,
+        "text": "山映斜阳天接水",
+        "task": "scale",
+        "gold": "大",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 122,
+        "text": "今宵酒醒何处？杨柳岸、晓风残月",
+        "task": "scale",
+        "gold": "大",
+        "source": "researcher",
+        "confidence": 0.7
+    },
+    {
+        "id": 123,
+        "text": "平林新月人归后",
+        "task": "scale",
+        "gold": "大",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 124,
+        "text": "云破月来花弄影",
+        "task": "scale",
+        "gold": "小",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 125,
+        "text": "小园香径独徘徊",
+        "task": "scale",
+        "gold": "小",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 126,
+        "text": "酒入愁肠，化作相思泪",
+        "task": "scale",
+        "gold": "小",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 127,
+        "text": "独立小桥风满袖",
+        "task": "scale",
+        "gold": "小",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 128,
+        "text": "明月楼高休独倚",
+        "task": "scale",
+        "gold": "小",
+        "source": "researcher",
+        "confidence": 0.7
+    },
+    {
+        "id": 129,
+        "text": "碧云天，黄叶地",
+        "task": "气象",
+        "gold": "有",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 130,
+        "text": "秋色连波，波上寒烟翠",
+        "task": "气象",
+        "gold": "有",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 131,
+        "text": "山映斜阳天接水",
+        "task": "气象",
+        "gold": "有",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 132,
+        "text": "红杏枝头春意闹",
+        "task": "气象",
+        "gold": "有",
+        "source": "researcher",
+        "confidence": 0.7
+    },
+    {
+        "id": 133,
+        "text": "落花人独立，微雨燕双飞",
+        "task": "气象",
+        "gold": "有",
+        "source": "researcher",
+        "confidence": 0.7
+    },
+    {
+        "id": 134,
+        "text": "拟把疏狂图一醉",
+        "task": "气象",
+        "gold": "无",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 135,
+        "text": "为伊消得人憔悴",
+        "task": "气象",
+        "gold": "无",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 136,
+        "text": "天涯地角有穷时，只有相思无尽处",
+        "task": "气象",
+        "gold": "无",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 137,
+        "text": "碧云天，黄叶地",
+        "task": "ge_buge",
+        "gold": "不隔",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 138,
+        "text": "山映斜阳天接水",
+        "task": "ge_buge",
+        "gold": "不隔",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 139,
+        "text": "红杏枝头春意闹",
+        "task": "ge_buge",
+        "gold": "不隔",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 140,
+        "text": "无可奈何花落去，似曾相识燕归来",
+        "task": "ge_buge",
+        "gold": "不隔",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 141,
+        "text": "落花人独立，微雨燕双飞",
+        "task": "ge_buge",
+        "gold": "不隔",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 142,
+        "text": "今宵酒醒何处？杨柳岸、晓风残月",
+        "task": "ge_buge",
+        "gold": "不隔",
+        "source": "researcher",
+        "confidence": 0.8
+    },
+    {
+        "id": 143,
+        "text": "为伊消得人憔悴",
+        "task": "ge_buge",
+        "gold": "不隔",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 144,
+        "text": "黯黯生天际",
+        "task": "ge_buge",
+        "gold": "隔",
+        "source": "researcher",
+        "confidence": 0.7
+    },
+    {
+        "id": 145,
+        "text": "衣带渐宽终不悔",
+        "task": "ge_buge",
+        "gold": "不隔",
+        "source": "researcher",
+        "confidence": 0.9
+    },
+    {
+        "id": 146,
+        "text": "心似双丝网，中有千千结",
+        "task": "ge_buge",
+        "gold": "隔",
+        "source": "researcher",
+        "confidence": 0.7
+    }
+]

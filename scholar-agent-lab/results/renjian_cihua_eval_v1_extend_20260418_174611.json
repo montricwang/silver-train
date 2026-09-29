@@ -1,0 +1,66 @@
+{
+  "model": "qwen-max",
+  "dataset": "renjian_cihua_eval_v1_extend.json",
+  "total": 46,
+  "correct": 41,
+  "accuracy": 0.8913043478260869,
+  "per_task": {
+    "type": {
+      "total": 18,
+      "correct": 17,
+      "accuracy": 0.9444444444444444
+    },
+    "scale": {
+      "total": 10,
+      "correct": 8,
+      "accuracy": 0.8
+    },
+    "气象": {
+      "total": 8,
+      "correct": 7,
+      "accuracy": 0.875
+    },
+    "ge_buge": {
+      "total": 10,
+      "correct": 9,
+      "accuracy": 0.9
+    }
+  },
+  "errors": [
+    {
+      "id": 112,
+      "task": "type",
+      "gold": "无我",
+      "pred": "有我",
+      "text": "红杏枝头春意闹"
+    },
+    {
+      "id": 122,
+      "task": "scale",
+      "gold": "大",
+      "pred": "小",
+      "text": "今宵酒醒何处？杨柳岸、晓风残月"
+    },
+    {
+      "id": 123,
+      "task": "scale",
+      "gold": "大",
+      "pred": "小",
+      "text": "平林新月人归后"
+    },
+    {
+      "id": 133,
+      "task": "气象",
+      "gold": "有",
+      "pred": "无",
+      "text": "落花人独立，微雨燕双飞"
+    },
+    {
+      "id": 146,
+      "task": "ge_buge",
+      "gold": "隔",
+      "pred": "不隔",
+      "text": "心似双丝网，中有千千结"
+    }
+  ]
+}

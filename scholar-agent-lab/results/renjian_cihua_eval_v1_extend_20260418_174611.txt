@@ -1,0 +1,18 @@
+模型: qwen-max
+评测集: renjian_cihua_eval_v1_extend.json
+总样本数: 46
+总正确数: 41
+总体准确率: 89.13%
+
+各任务准确率:
+type: 17/18 = 94.44%
+scale: 8/10 = 80.00%
+气象: 7/8 = 87.50%
+ge_buge: 9/10 = 90.00%
+
+错误样例:
+id=112 | task=type | gold=无我 | pred=有我 | text=红杏枝头春意闹
+id=122 | task=scale | gold=大 | pred=小 | text=今宵酒醒何处？杨柳岸、晓风残月
+id=123 | task=scale | gold=大 | pred=小 | text=平林新月人归后
+id=133 | task=气象 | gold=有 | pred=无 | text=落花人独立，微雨燕双飞
+id=146 | task=ge_buge | gold=隔 | pred=不隔 | text=心似双丝网，中有千千结
