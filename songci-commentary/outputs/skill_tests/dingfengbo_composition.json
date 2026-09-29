@@ -1,0 +1,54 @@
+{
+  "poem_title": "定风波·莫听穿林打叶声",
+  "structure": {
+    "opening_type": "abrupt_opening",
+    "opening_note": "以劝诫语气直入，无铺垫，定下旷达基调",
+    "closing_type": "emotion_closing",
+    "closing_note": "以哲理感悟收束，点出超脱心境",
+    "upper_lower_relationship": "progression",
+    "transition_method": "carry_over"
+  },
+  "unfolding_method": {
+    "dominant_methods": [
+      "pointing_dyeing"
+    ],
+    "note": "上片以景染情（风雨），下片以景染理（斜照），点出超脱主题"
+  },
+  "emotional_progression": {
+    "path": "从直面风雨的从容 → 酒醒微冷的清醒 → 斜照相迎的豁然 → 回首过往的超越",
+    "turning_points": [
+      {
+        "at_line": "L5",
+        "description": "从风雨困境转向斜照相迎，情绪由外转内"
+      }
+    ]
+  },
+  "syntax_highlights": {
+    "leading_chars": [],
+    "inverted_lines": [],
+    "enjambments": [],
+    "notable_parallelism": [
+      {
+        "lines": [
+          "莫听穿林打叶声",
+          "何妨吟啸且徐行"
+        ],
+        "note": "对仗式劝诫与行动呼应"
+      }
+    ]
+  },
+  "traditional_term_tags": [
+    {
+      "term": "点染",
+      "note": "风雨与斜照为染，超脱心境为点"
+    },
+    {
+      "term": "由实入虚",
+      "note": "从实景风雨转入虚理感悟"
+    },
+    {
+      "term": "顿挫",
+      "note": "上下片间有微冷与斜照的转折"
+    }
+  ]
+}

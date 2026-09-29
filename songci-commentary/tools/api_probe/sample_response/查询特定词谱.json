@@ -1,0 +1,42 @@
+{
+  "Formats": [
+    {
+      "FormatIndex": 0,
+      "Desc": "双调四十一字，前段五句三仄韵、一叠韵，后段四句三仄韵",
+      "Comment": "《啸馀谱》注《生查子》调，与《醉花间》调相近。不知《生查子》正体前后段皆五字句起，间有用六字者，变格耳。《醉花间》正体则前必六字、后必五字也。\n谱内可平可仄悉参下毛词。",
+      "SampleAuthor": "毛文锡",
+      "SampleContent": "深相忆莫相忆相忆情难极银汉是红墙一带遥相隔金盘珠露滴两岸榆花白风摇玉佩轻今夕为何夕",
+      "Definition": "○○●韵●○●叠○●○○●韵○●●○○句◎●○○●韵　　⊙⊙⊙◎●韵◎◎○⊙●韵○⊙●◎○句⊙●○○●韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　深相忆　莫相忆　相忆情难极　银汉是红墙　一带遥相隔　<br />\r\n<span class='comment'>　　平平仄<span class='rhythm'>韵</span>仄平仄<span class='rhythm'>叠</span>平仄平平仄<span class='rhythm'>韵</span>平仄仄平平<span class='rhythm'>句</span>中仄平平仄<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　金盘珠露滴　两岸榆花白　风摇玉佩轻　今夕为何夕　<br />\r\n<span class='comment'>　　中中中中仄<span class='rhythm'>韵</span>中中平中仄<span class='rhythm'>韵</span>平中仄中平<span class='rhythm'>句</span>中仄平平仄<span class='rhythm'>韵</span></span></p>\r\n"
+    },
+    {
+      "FormatIndex": 1,
+      "Desc": "双调四十一字，前段五句三仄韵、一叠韵，后段四句两仄韵",
+      "Comment": "此词后段第一句少押一韵，与前词异。",
+      "SampleAuthor": "毛文锡",
+      "SampleContent": "休相问怕相问相问还添恨春水满塘生鸂鶒还相趁昨夜雨霏霏临明寒一阵偏忆戍楼人久绝边庭信",
+      "Definition": "○○●韵●○●叠○●○○●韵○●●○○句○●○○●韵　　●●●○○句○○○●●韵○●●○○句●●○○●韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　休相问　怕相问　相问还添恨　春水满塘生　鸂鶒还相趁　<br />\r\n<span class='comment'>　　平平仄<span class='rhythm'>韵</span>仄平仄<span class='rhythm'>叠</span>平仄平平仄<span class='rhythm'>韵</span>平仄仄平平<span class='rhythm'>句</span>平仄平平仄<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　昨夜雨霏霏　临明寒一阵　偏忆戍楼人　久绝边庭信　<br />\r\n<span class='comment'>　　仄仄仄平平<span class='rhythm'>句</span>平平平仄仄<span class='rhythm'>韵</span>平仄仄平平<span class='rhythm'>句</span>仄仄平平仄<span class='rhythm'>韵</span></span></p>\r\n"
+    },
+    {
+      "FormatIndex": 2,
+      "Desc": "双调五十字，前段四句三仄韵，后段六句四仄韵",
+      "Comment": "此词前段第二、三、四句与毛词同，惟起句作七字异。后段第一、二句与毛词同，以下句读全异。《阳春集》中四首皆然。\n前段第一句，冯词别首“月落霜繁深院闭”，“月”字仄声，“霜”字平声。第二句“洞房人正睡”，“洞”字仄声。后段第一句“夜深寒不彻”，“夜”字仄声。第三句“双眉愁几许”，“双”字平声。第四句“两条玉箸为君垂”，“两”字仄声。又“人心情绪自无端”，“情”字平声。谱内可平可仄据此。",
+      "SampleAuthor": "冯延巳",
+      "SampleContent": "晴雪小园春未到池边梅自早高树鹊衔巢斜月明寒草山川风景好自古金陵道少年看却老相逢莫厌醉金杯别离多欢会少",
+      "Definition": "⊙●◎○○●●韵⊙○○●●韵○●●○○句○●○○●韵　　⊙○○●●韵●●○○●韵◎○○●●韵⊙○◎●●○○句●○○句○●●韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　晴雪小园春未到　池边梅自早　高树鹊衔巢　斜月明寒草　<br />\r\n<span class='comment'>　　中仄中平平仄仄<span class='rhythm'>韵</span>中平平仄仄<span class='rhythm'>韵</span>平仄仄平平<span class='rhythm'>句</span>平仄平平仄<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　山川风景好　自古金陵道　少年看却老　相逢莫厌醉金杯　别离多　欢会少　<br />\r\n<span class='comment'>　　中平平仄仄<span class='rhythm'>韵</span>仄仄平平仄<span class='rhythm'>韵</span>中平平仄仄<span class='rhythm'>韵</span>中平中仄仄平平<span class='rhythm'>句</span>仄平平<span class='rhythm'>句</span>平仄仄<span class='rhythm'>韵</span></span></p>\r\n"
+    }
+  ],
+  "Id": 90,
+  "Type": "Ze",
+  "Name": "醉花间",
+  "Aliases": [
+    "醉花閒"
+  ],
+  "Desc": "唐教坊曲名。《宋史·乐志》：双调。",
+  "WritingCount": 44
+}

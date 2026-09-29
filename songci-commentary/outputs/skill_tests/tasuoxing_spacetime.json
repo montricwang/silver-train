@@ -1,0 +1,113 @@
+{
+  "poem_title": "踏莎行·郴州旅舍",
+  "line_analysis": [
+    {
+      "line_id": "L1",
+      "text": "雾失楼台，月迷津渡。",
+      "time": "present",
+      "space": {
+        "location": "郴州旅舍外景（楼台、津渡）",
+        "distance": "middle",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "眼前实景，雾月朦胧"
+    },
+    {
+      "line_id": "L2",
+      "text": "桃源望断无寻处。",
+      "time": "present",
+      "space": {
+        "location": "郴州旅舍外（远望桃源方向）",
+        "distance": "far",
+        "interior_exterior": "exterior"
+      },
+      "reality": "virtual_imagination",
+      "note": "桃源为想象之虚境，实不可见"
+    },
+    {
+      "line_id": "L3",
+      "text": "可堪孤馆闭春寒，杜鹃声里斜阳暮。",
+      "time": "present",
+      "space": {
+        "location": "孤馆（旅舍室内）及馆外（杜鹃声、斜阳）",
+        "distance": "near",
+        "interior_exterior": "interior"
+      },
+      "reality": "real",
+      "note": "孤馆为室内，杜鹃声斜阳为室外听觉视觉"
+    },
+    {
+      "line_id": "L4",
+      "text": "驿寄梅花，鱼传尺素。",
+      "time": "present",
+      "space": {
+        "location": "驿路、水路（寄信场景）",
+        "distance": "far",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "眼前事，但指向远方亲友"
+    },
+    {
+      "line_id": "L5",
+      "text": "砌成此恨无重数。",
+      "time": "present",
+      "space": {
+        "location": "unspecified",
+        "distance": "unclear",
+        "interior_exterior": "unclear"
+      },
+      "reality": "real",
+      "note": "抽象情感，无具体空间"
+    },
+    {
+      "line_id": "L6",
+      "text": "郴江幸自绕郴山，为谁流下潇湘去。",
+      "time": "present",
+      "space": {
+        "location": "郴江、郴山、潇湘",
+        "distance": "far",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "眼前实景，但以问句引出想象延伸"
+    }
+  ],
+  "perspective": {
+    "type": "first_person",
+    "is_switched": false,
+    "switch_points": []
+  },
+  "transitions": [
+    {
+      "between_lines": "L1-L2",
+      "type": "reality",
+      "direction": "real→virtual_imagination",
+      "note": "从眼前雾月实景转入对桃源的想象"
+    },
+    {
+      "between_lines": "L2-L3",
+      "type": "space",
+      "direction": "远望桃源→孤馆室内",
+      "note": "空间从远处拉回近处室内"
+    },
+    {
+      "between_lines": "L3-L4",
+      "type": "space",
+      "direction": "孤馆室内→驿路水路远方",
+      "note": "从封闭空间转向远方通信场景"
+    },
+    {
+      "between_lines": "L5-L6",
+      "type": "space",
+      "direction": "抽象情感→郴江山水",
+      "note": "从无空间的情感转向具体地理空间"
+    }
+  ],
+  "summary": {
+    "dominant_time_organization": "linear_present",
+    "dominant_space_organization": "outward_expansion",
+    "virtual_real_pattern": "real_to_virtual"
+  }
+}

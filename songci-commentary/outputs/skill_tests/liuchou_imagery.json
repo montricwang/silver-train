@@ -1,0 +1,356 @@
+{
+  "poem_title": "六丑·蔷薇谢后作",
+  "imagery_units": [
+    {
+      "surface": "单衣试酒",
+      "category": "动作场景",
+      "location": "上片第一句",
+      "traditional_associations": [
+        "换季时节的日常动作",
+        "借酒消愁的暗示"
+      ],
+      "local_function": "开篇点明人物状态与季节背景"
+    },
+    {
+      "surface": "客里",
+      "category": "抽象具象化",
+      "location": "上片第二句",
+      "traditional_associations": [
+        "漂泊异乡的孤独感"
+      ],
+      "local_function": "奠定全词羁旅愁绪基调"
+    },
+    {
+      "surface": "光阴虚掷",
+      "category": "抽象具象化",
+      "location": "上片第二句",
+      "traditional_associations": [
+        "时光流逝的惋惜"
+      ],
+      "local_function": "强化时间流逝的焦虑"
+    },
+    {
+      "surface": "春归如过翼",
+      "category": "自然",
+      "location": "上片第三句",
+      "traditional_associations": [
+        "春天短暂易逝",
+        "鸟翼喻快速离去"
+      ],
+      "local_function": "以鸟翼比喻春去之速，强化时间感"
+    },
+    {
+      "surface": "夜来风雨",
+      "category": "自然",
+      "location": "上片第五句",
+      "traditional_associations": [
+        "摧花折木的破坏力",
+        "无常命运的象征"
+      ],
+      "local_function": "解释蔷薇凋谢的直接原因"
+    },
+    {
+      "surface": "楚宫倾国",
+      "category": "人物",
+      "location": "上片第六句",
+      "traditional_associations": [
+        "绝代佳人",
+        "楚宫典故喻花之娇贵"
+      ],
+      "local_function": "将蔷薇拟人化为倾国美人，增强悲剧感"
+    },
+    {
+      "surface": "钗钿堕处遗香泽",
+      "category": "人造",
+      "location": "上片第七句",
+      "traditional_associations": [
+        "女子首饰散落",
+        "香泽残留暗示逝去"
+      ],
+      "local_function": "以首饰喻花瓣，渲染凋零后的残香"
+    },
+    {
+      "surface": "乱点桃蹊",
+      "category": "自然",
+      "location": "上片第八句",
+      "traditional_associations": [
+        "落花散落小径",
+        "桃蹊为常见园林路径"
+      ],
+      "local_function": "描绘花瓣飘落的具体场景"
+    },
+    {
+      "surface": "轻翻柳陌",
+      "category": "自然",
+      "location": "上片第九句",
+      "traditional_associations": [
+        "柳陌为离别象征",
+        "轻翻暗示飘零"
+      ],
+      "local_function": "与桃蹊并置，强化落花纷乱之态"
+    },
+    {
+      "surface": "蜂媒蝶使",
+      "category": "自然",
+      "location": "上片第十一句",
+      "traditional_associations": [
+        "蜜蜂蝴蝶为花之使者",
+        "媒使喻传递消息者"
+      ],
+      "local_function": "以蜂蝶拟人，反衬无人追惜"
+    },
+    {
+      "surface": "窗槅",
+      "category": "人造",
+      "location": "上片第十二句",
+      "traditional_associations": [
+        "窗格象征内外阻隔"
+      ],
+      "local_function": "蜂蝶叩窗，暗示花已不在，徒留空寂"
+    },
+    {
+      "surface": "东园岑寂",
+      "category": "自然",
+      "location": "下片第一句",
+      "traditional_associations": [
+        "园林寂静",
+        "春去后的荒凉"
+      ],
+      "local_function": "空间转换，点明园中寂静"
+    },
+    {
+      "surface": "蒙笼暗碧",
+      "category": "自然",
+      "location": "下片第二句",
+      "traditional_associations": [
+        "草木茂盛幽暗",
+        "暮春初夏的色调"
+      ],
+      "local_function": "渲染环境幽暗，暗示时光推移"
+    },
+    {
+      "surface": "珍丛",
+      "category": "自然",
+      "location": "下片第三句",
+      "traditional_associations": [
+        "珍贵花丛",
+        "蔷薇丛"
+      ],
+      "local_function": "指代蔷薇残枝，引发叹息"
+    },
+    {
+      "surface": "长条故惹行客",
+      "category": "自然",
+      "location": "下片第五句",
+      "traditional_associations": [
+        "枝条牵衣拟人",
+        "挽留行人的动作"
+      ],
+      "local_function": "以枝条拟人，表达惜别之情"
+    },
+    {
+      "surface": "牵衣待话",
+      "category": "动作场景",
+      "location": "下片第六句",
+      "traditional_associations": [
+        "依依不舍的离别动作"
+      ],
+      "local_function": "强化枝条挽留的拟人化效果"
+    },
+    {
+      "surface": "残英小",
+      "category": "自然",
+      "location": "下片第八句",
+      "traditional_associations": [
+        "残存的小花",
+        "衰败的象征"
+      ],
+      "local_function": "与盛时对比，突出凋零"
+    },
+    {
+      "surface": "强簪巾帻",
+      "category": "动作场景",
+      "location": "下片第九句",
+      "traditional_associations": [
+        "勉强插戴",
+        "强作欢颜"
+      ],
+      "local_function": "人物试图留住残春的徒劳动作"
+    },
+    {
+      "surface": "钗头颤袅",
+      "category": "人造",
+      "location": "下片第十一句",
+      "traditional_associations": [
+        "女子发钗摇曳",
+        "娇美动态"
+      ],
+      "local_function": "回忆蔷薇盛开时的娇态，与残英对比"
+    },
+    {
+      "surface": "漂流处",
+      "category": "自然",
+      "location": "下片第十三句",
+      "traditional_associations": [
+        "落花随水漂流",
+        "命运无常"
+      ],
+      "local_function": "想象落花入水后的漂泊"
+    },
+    {
+      "surface": "潮汐",
+      "category": "自然",
+      "location": "下片第十四句",
+      "traditional_associations": [
+        "潮水涨落",
+        "不可控的自然力量"
+      ],
+      "local_function": "警告落花莫随潮水远去"
+    },
+    {
+      "surface": "断红",
+      "category": "自然",
+      "location": "下片第十五句",
+      "traditional_associations": [
+        "落花残瓣",
+        "红色断片"
+      ],
+      "local_function": "代指落花，引出相思字典故"
+    },
+    {
+      "surface": "相思字",
+      "category": "抽象具象化",
+      "location": "下片第十六句",
+      "traditional_associations": [
+        "红叶题诗典故",
+        "相思寄托"
+      ],
+      "local_function": "将落花与相思关联，深化情感"
+    }
+  ],
+  "relations": [
+    {
+      "type": "progression",
+      "involved_imagery": [
+        "春归如过翼",
+        "夜来风雨",
+        "钗钿堕处遗香泽",
+        "乱点桃蹊",
+        "轻翻柳陌"
+      ],
+      "note": "从春去→风雨摧花→花瓣散落，时间递进"
+    },
+    {
+      "type": "contrast",
+      "involved_imagery": [
+        "钗头颤袅",
+        "残英小"
+      ],
+      "note": "盛时娇态与残英衰败形成对照"
+    },
+    {
+      "type": "echo",
+      "involved_imagery": [
+        "蜂媒蝶使",
+        "窗槅"
+      ],
+      "note": "蜂蝶叩窗呼应无人追惜，内外隔绝"
+    },
+    {
+      "type": "echo",
+      "involved_imagery": [
+        "长条故惹行客",
+        "牵衣待话"
+      ],
+      "note": "枝条拟人动作与挽留主题呼应"
+    },
+    {
+      "type": "progression",
+      "involved_imagery": [
+        "东园岑寂",
+        "蒙笼暗碧",
+        "静绕珍丛底"
+      ],
+      "note": "从园寂→暗碧→绕丛，空间与时间推进"
+    },
+    {
+      "type": "transformation",
+      "involved_imagery": [
+        "钗钿堕处遗香泽",
+        "断红"
+      ],
+      "note": "花瓣从完整钗钿变为断红残片"
+    },
+    {
+      "type": "juxtaposition",
+      "involved_imagery": [
+        "乱点桃蹊",
+        "轻翻柳陌"
+      ],
+      "note": "桃蹊与柳陌并置，铺陈落花场景"
+    },
+    {
+      "type": "contrast",
+      "involved_imagery": [
+        "强簪巾帻",
+        "钗头颤袅"
+      ],
+      "note": "勉强插戴与自然摇曳形成对比"
+    },
+    {
+      "type": "echo",
+      "involved_imagery": [
+        "漂流处",
+        "潮汐",
+        "断红",
+        "相思字"
+      ],
+      "note": "落花漂流与相思字典故呼应，深化漂泊"
+    }
+  ],
+  "groups": [
+    {
+      "theme": "落花与残春",
+      "members": [
+        "春归如过翼",
+        "夜来风雨",
+        "楚宫倾国",
+        "钗钿堕处遗香泽",
+        "乱点桃蹊",
+        "轻翻柳陌",
+        "残英小",
+        "断红"
+      ]
+    },
+    {
+      "theme": "人物与动作",
+      "members": [
+        "单衣试酒",
+        "客里",
+        "光阴虚掷",
+        "强簪巾帻",
+        "牵衣待话"
+      ]
+    },
+    {
+      "theme": "园林与空间",
+      "members": [
+        "东园岑寂",
+        "蒙笼暗碧",
+        "珍丛",
+        "窗槅",
+        "桃蹊",
+        "柳陌"
+      ]
+    },
+    {
+      "theme": "拟人化意象",
+      "members": [
+        "蜂媒蝶使",
+        "长条故惹行客",
+        "牵衣待话",
+        "钗头颤袅"
+      ]
+    }
+  ]
+}

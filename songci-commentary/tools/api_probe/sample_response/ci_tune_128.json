@@ -1,0 +1,90 @@
+{
+  "Formats": [
+    {
+      "FormatIndex": 0,
+      "Desc": "双调四十六字，前段六句两仄韵、两平韵，后段六句三仄韵、两平韵",
+      "Comment": "此调以温、韦二词为正体，唐人多宗温词，宋人多宗韦词。其馀押韵异同，或有减字，皆变格也。\n后段第二句，牛峤词“寸肠结”，“寸“字仄声。第四句，冯延巳词“星移后”，“移“字平声。谱内可平可仄据此，馀参下所采各词。",
+      "SampleAuthor": "温庭筠",
+      "SampleContent": "玉炉香红烛泪偏照画堂秋思眉翠薄鬓云残夜长衾枕寒梧桐树三更雨不道离情正苦一叶叶一声声空阶滴到明",
+      "Definition": "◎⊙○句⊙◎●仄韵⊙●◎○○●韵⊙◎●句●○○平韵◎○⊙●○韵　　○⊙●换仄韵⊙⊙●韵◎●⊙○◎●韵◎◎●句●○○换平韵⊙○◎●○韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　玉炉香　红烛泪　　偏照画堂秋思　眉翠薄　鬓云残　　夜长衾枕寒　<br />\r\n<span class='comment'>　　中中平<span class='rhythm'>句</span>中中仄<span class='rhythm'>仄</span><span class='rhythm'>韵</span>中仄中平平仄<span class='rhythm'>韵</span>中中仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>平</span><span class='rhythm'>韵</span>中平中仄平<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　梧桐树　　　三更雨　不道离情正苦　一叶叶　一声声　　　空阶滴到明　<br />\r\n<span class='comment'>　　平中仄<span class='rhythm'>换</span><span class='rhythm'>仄</span><span class='rhythm'>韵</span>中中仄<span class='rhythm'>韵</span>中仄中平中仄<span class='rhythm'>韵</span>中中仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>换</span><span class='rhythm'>平</span><span class='rhythm'>韵</span>中平中仄平<span class='rhythm'>韵</span></span></p>\r\n"
+    },
+    {
+      "FormatIndex": 1,
+      "Desc": "双调四十六字，前后段各六句，两仄韵、两平韵",
+      "Comment": "此即温词体，惟换头句不用韵异。\n按宋词换头句多不用韵。但唐人此句第三字用仄声，宋人此句第三字则用平声。晏殊词后段起句“探花开”，“探”字仄声，“花”、“开”二字俱平声。谱内参之，馀详温词。",
+      "SampleAuthor": "韦庄",
+      "SampleContent": "钟鼓寒楼阁暝月照古桐金井深院闭小庭空落花香露红烟柳重春雾薄灯背水窗高阁閒倚户暗沾衣待郎郎不归",
+      "Definition": "○●○句○●●仄韵●●●○○●韵○●●句●○○平韵●○○●○韵　　⊙◎◎句○●●换仄韵○●●○○●韵○●●句●○○换平韵●○○●○韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　钟鼓寒　楼阁暝　　月照古桐金井　深院闭　小庭空　　落花香露红　<br />\r\n<span class='comment'>　　平仄平<span class='rhythm'>句</span>平仄仄<span class='rhythm'>仄</span><span class='rhythm'>韵</span>仄仄仄平平仄<span class='rhythm'>韵</span>平仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>平</span><span class='rhythm'>韵</span>仄平平仄平<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　烟柳重　春雾薄　　　灯背水窗高阁　閒倚户　暗沾衣　　　待郎郎不归　<br />\r\n<span class='comment'>　　中中中<span class='rhythm'>句</span>平仄仄<span class='rhythm'>换</span><span class='rhythm'>仄</span><span class='rhythm'>韵</span>平仄仄平平仄<span class='rhythm'>韵</span>平仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>换</span><span class='rhythm'>平</span><span class='rhythm'>韵</span>仄平平仄平<span class='rhythm'>韵</span></span></p>\r\n"
+    },
+    {
+      "FormatIndex": 2,
+      "Desc": "双调四十六字，前后段各六句，两仄韵、两平韵",
+      "Comment": "此即韦词体，惟后段仄韵、平韵即押前段原韵异。贺词凡四首皆同。",
+      "SampleAuthor": "贺铸",
+      "SampleContent": "上东门门外柳赠别每烦纤手一叶落几番秋江南独倚楼曲阑干凝伫久薄暮更堪搔首无际恨见閒愁侵寻天尽头",
+      "Definition": "●○○句○●●仄韵●●●○○●韵●●●句●○○平韵○○●●○韵　　●○○句○●●仄韵●●●○○●韵○●●句●○○平韵○○○●○韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　上东门　门外柳　　赠别每烦纤手　一叶落　几番秋　　江南独倚楼　<br />\r\n<span class='comment'>　　仄平平<span class='rhythm'>句</span>平仄仄<span class='rhythm'>仄</span><span class='rhythm'>韵</span>仄仄仄平平仄<span class='rhythm'>韵</span>仄仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>平</span><span class='rhythm'>韵</span>平平仄仄平<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　曲阑干　凝伫久　　薄暮更堪搔首　无际恨　见閒愁　　侵寻天尽头　<br />\r\n<span class='comment'>　　仄平平<span class='rhythm'>句</span>平仄仄<span class='rhythm'>仄</span><span class='rhythm'>韵</span>仄仄仄平平仄<span class='rhythm'>韵</span>平仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>平</span><span class='rhythm'>韵</span>平平平仄平<span class='rhythm'>韵</span></span></p>\r\n"
+    },
+    {
+      "FormatIndex": 3,
+      "Desc": "双调四十五字，前段六句两仄韵、两平韵，后段六句三仄韵、两平韵",
+      "Comment": "此亦温词体，惟换头句减一字，其后结平韵，即押前韵异。",
+      "SampleAuthor": "欧阳炯",
+      "SampleContent": "玉阑干金甃井月照碧梧桐影独自个立多时露华浓湿衣一晌凝情望待得不成模样虽叵耐又寻思怎生嗔得伊",
+      "Definition": "●○○句○●●仄韵●●●○○●韵●●●句●○○平韵●○○●○韵　　●●换仄韵○○●韵●●●○○●韵○●●句●○○平韵●○○●○韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　玉阑干　金甃井　　月照碧梧桐影　独自个　立多时　　露华浓湿衣　<br />\r\n<span class='comment'>　　仄平平<span class='rhythm'>句</span>平仄仄<span class='rhythm'>仄</span><span class='rhythm'>韵</span>仄仄仄平平仄<span class='rhythm'>韵</span>仄仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>平</span><span class='rhythm'>韵</span>仄平平仄平<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　一晌　　　凝情望　待得不成模样　虽叵耐　又寻思　　怎生嗔得伊　<br />\r\n<span class='comment'>　　仄仄<span class='rhythm'>换</span><span class='rhythm'>仄</span><span class='rhythm'>韵</span>平平仄<span class='rhythm'>韵</span>仄仄仄平平仄<span class='rhythm'>韵</span>平仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>平</span><span class='rhythm'>韵</span>仄平平仄平<span class='rhythm'>韵</span></span></p>\r\n"
+    },
+    {
+      "FormatIndex": 4,
+      "Desc": "双调四十六字，前段六句两仄韵、两平韵，后段六句四平韵",
+      "Comment": "此词句读，与温韦词同，惟后段第一、二、三句不押仄韵异。",
+      "SampleAuthor": "孙光宪",
+      "SampleContent": "掌中珠心上气爱惜岂将容易花下月枕前人此生谁更亲交颈语合欢身便同比目金鳞连绣枕卧红茵霜天似暖春",
+      "Definition": "●○○句○●●仄韵●●●○○●韵○●●句●○○平韵●○○●○韵　　○●●句●○○韵●○●●○○韵○●●句●○○韵○○●●○韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　掌中珠　心上气　　爱惜岂将容易　花下月　枕前人　　此生谁更亲　<br />\r\n<span class='comment'>　　仄平平<span class='rhythm'>句</span>平仄仄<span class='rhythm'>仄</span><span class='rhythm'>韵</span>仄仄仄平平仄<span class='rhythm'>韵</span>平仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>平</span><span class='rhythm'>韵</span>仄平平仄平<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　交颈语　合欢身　便同比目金鳞　连绣枕　卧红茵　霜天似暖春　<br />\r\n<span class='comment'>　　平仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>韵</span>仄平仄仄平平<span class='rhythm'>韵</span>平仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>韵</span>平平仄仄平<span class='rhythm'>韵</span></span></p>\r\n"
+    },
+    {
+      "FormatIndex": 5,
+      "Desc": "双调四十五字，前后段各六句，两仄韵、两平韵",
+      "Comment": "此亦韦词体，惟后段第三句五字异。",
+      "SampleAuthor": "《天机馀锦》无名氏",
+      "SampleContent": "解语花断肠草谙尽风流烦恼合欢少别离多此情无奈何帐前灯窗间月记得那时节绣被剩画屏空如今在梦中",
+      "Definition": "●●○句●○●仄韵○●○○○●韵●○●句●○○平韵●○○●○韵　　●○○句○○●换仄韵●●●○●韵●●●句●○○换平韵○○●●○韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　解语花　断肠草　　谙尽风流烦恼　合欢少　别离多　　此情无奈何　<br />\r\n<span class='comment'>　　仄仄平<span class='rhythm'>句</span>仄平仄<span class='rhythm'>仄</span><span class='rhythm'>韵</span>平仄平平平仄<span class='rhythm'>韵</span>仄平仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>平</span><span class='rhythm'>韵</span>仄平平仄平<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　帐前灯　窗间月　　　记得那时节　绣被剩　画屏空　　　如今在梦中　<br />\r\n<span class='comment'>　　仄平平<span class='rhythm'>句</span>平平仄<span class='rhythm'>换</span><span class='rhythm'>仄</span><span class='rhythm'>韵</span>仄仄仄平仄<span class='rhythm'>韵</span>仄仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>换</span><span class='rhythm'>平</span><span class='rhythm'>韵</span>平平仄仄平<span class='rhythm'>韵</span></span></p>\r\n"
+    },
+    {
+      "FormatIndex": 6,
+      "Desc": "双调四十九字，前段四句三平韵，后段五句四平韵",
+      "Comment": "此词前后段全押平韵，见《尊前集》。唐人亦无填此体者。",
+      "SampleAuthor": "欧阳炯",
+      "SampleContent": "三十六宫秋夜永露华点滴高梧丁丁玉漏咽铜壶明月上金铺红线毯博山炉香风暗触流苏羊车一去长青芜镜尘鸾䌽孤",
+      "Definition": "○●●○○●●句●○●●○○韵○○●●●○○韵○●●○○韵　　○●●句●○○韵○○●●○○韵○○●●●○○韵●○○●○韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　三十六宫秋夜永　露华点滴高梧　丁丁玉漏咽铜壶　明月上金铺　<br />\r\n<span class='comment'>　　平仄仄平平仄仄<span class='rhythm'>句</span>仄平仄仄平平<span class='rhythm'>韵</span>平平仄仄仄平平<span class='rhythm'>韵</span>平仄仄平平<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　红线毯　博山炉　香风暗触流苏　羊车一去长青芜　镜尘鸾䌽孤　<br />\r\n<span class='comment'>　　平仄仄<span class='rhythm'>句</span>仄平平<span class='rhythm'>韵</span>平平仄仄平平<span class='rhythm'>韵</span>平平仄仄仄平平<span class='rhythm'>韵</span>仄平平仄平<span class='rhythm'>韵</span></span></p>\r\n"
+    },
+    {
+      "FormatIndex": 7,
+      "Desc": "双调一百四字，前后段各十句，五平韵",
+      "Comment": "此与唐词迥别，即宋词中亦无他首可校。因调名相同，故附列于此。",
+      "SampleAuthor": "杜安世",
+      "SampleContent": "遥远途程算万水千山路入神京暖日春郊绿柳红杏香径舞燕流莺客馆悄悄閒庭堪惹旧恨深有多少驰驱蓦岭涉水枉废身心思想厚利高名漫惹得忧烦枉度浮生幸有青松白云深洞清閒且乐升平长是宦游羁思别离泪满襟望江乡踪迹旧游题书尚自分明",
+      "Definition": "○●○○韵●●●○○句●●○○韵●●○○读●●○●句○●●●○○韵●●●●○○句○●●●○韵●○●○○句●●●●句●●○○韵　　○●●●○○韵●●●○○句●●○○韵●●○○读●○○●句○○●●○○韵○●●○○●句●○●●○韵●○○○●句●○○○句●●○○韵",
+      "LeadingChars": null,
+      "FormatHtml": "<p class='mSize'>　　遥远途程　算万水千山　路入神京　暖日春郊　绿柳红杏　香径舞燕流莺　客馆悄悄閒庭　堪惹旧恨深　<br />\r\n<span class='comment'>　　平仄平平<span class='rhythm'>韵</span>仄仄仄平平<span class='rhythm'>句</span>仄仄平平<span class='rhythm'>韵</span>仄仄平平<span class='rhythm'>读</span>仄仄平仄<span class='rhythm'>句</span>平仄仄仄平平<span class='rhythm'>韵</span>仄仄仄仄平平<span class='rhythm'>句</span>平仄仄仄平<span class='rhythm'>韵</span></span></p>\r\n<p class='mSize'>有多少驰驱　蓦岭涉水　枉废身心　<br />\r\n<span class='comment'>仄平仄平平<span class='rhythm'>句</span>仄仄仄仄<span class='rhythm'>句</span>仄仄平平<span class='rhythm'>韵</span></span></p>\r\n<br /><p class='mSize'>　　思想厚利高名　漫惹得忧烦　枉度浮生　幸有青松　白云深洞　清閒且乐升平　长是宦游羁思　<br />\r\n<span class='comment'>　　平仄仄仄平平<span class='rhythm'>韵</span>仄仄仄平平<span class='rhythm'>句</span>仄仄平平<span class='rhythm'>韵</span>仄仄平平<span class='rhythm'>读</span>仄平平仄<span class='rhythm'>句</span>平平仄仄平平<span class='rhythm'>韵</span>平仄仄平平仄<span class='rhythm'>句</span></span></p>\r\n<p class='mSize'>别离泪满襟　望江乡踪迹　旧游题书　尚自分明　<br />\r\n<span class='comment'>仄平仄仄平<span class='rhythm'>韵</span>仄平平平仄<span class='rhythm'>句</span>仄平平平<span class='rhythm'>句</span>仄仄平平<span class='rhythm'>韵</span></span></p>\r\n"
+    }
+  ],
+  "Id": 128,
+  "Type": "PingZeSwitch",
+  "Name": "更漏子",
+  "Aliases": null,
+  "Desc": "此调有两体，四十六字者始于温庭筠，唐宋词最多。《尊前集》注“大石调”，又属“商调”。一百四字者止杜安世词，无别首可录。",
+  "WritingCount": 292
+}

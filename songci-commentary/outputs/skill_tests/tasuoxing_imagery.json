@@ -1,0 +1,250 @@
+{
+  "poem_title": "踏莎行·郴州旅舍",
+  "imagery_units": [
+    {
+      "surface": "雾",
+      "category": "自然",
+      "location": "上片第一句",
+      "traditional_associations": [
+        "迷离、遮蔽",
+        "阻隔、迷茫"
+      ],
+      "local_function": "开篇营造迷蒙压抑氛围，遮蔽视线象征前途渺茫"
+    },
+    {
+      "surface": "楼台",
+      "category": "人造",
+      "location": "上片第一句",
+      "traditional_associations": [
+        "繁华、高远",
+        "可望不可即的理想居所"
+      ],
+      "local_function": "与雾结合，暗示理想家园被遮蔽"
+    },
+    {
+      "surface": "月",
+      "category": "自然",
+      "location": "上片第二句",
+      "traditional_associations": [
+        "思乡、怀人",
+        "清冷、孤独"
+      ],
+      "local_function": "与迷津渡并置，强化迷失方向感"
+    },
+    {
+      "surface": "津渡",
+      "category": "人造",
+      "location": "上片第二句",
+      "traditional_associations": [
+        "离别、渡口",
+        "人生转折点"
+      ],
+      "local_function": "象征出路与归途，被月色迷蒙，暗示无路可走"
+    },
+    {
+      "surface": "桃源",
+      "category": "自然",
+      "location": "上片第三句",
+      "traditional_associations": [
+        "世外仙境",
+        "理想归宿"
+      ],
+      "local_function": "代表精神家园，望断无寻处强化绝望"
+    },
+    {
+      "surface": "孤馆",
+      "category": "人造",
+      "location": "上片第四句",
+      "traditional_associations": [
+        "羁旅、孤独",
+        "封闭、冷清"
+      ],
+      "local_function": "空间锚点，点明旅舍身份，烘托孤寂"
+    },
+    {
+      "surface": "春寒",
+      "category": "自然",
+      "location": "上片第四句",
+      "traditional_associations": [
+        "料峭、萧瑟",
+        "春寒料峭喻人生困境"
+      ],
+      "local_function": "与孤馆结合，强化封闭寒冷之感"
+    },
+    {
+      "surface": "杜鹃声",
+      "category": "自然",
+      "location": "上片第五句",
+      "traditional_associations": [
+        "哀啼、思归",
+        "悲切、催人泪下"
+      ],
+      "local_function": "听觉意象，以声写哀，加深愁绪"
+    },
+    {
+      "surface": "斜阳",
+      "category": "自然",
+      "location": "上片第五句",
+      "traditional_associations": [
+        "黄昏、迟暮",
+        "衰败、终结"
+      ],
+      "local_function": "时间标记，暮色加重凄凉氛围"
+    },
+    {
+      "surface": "驿寄梅花",
+      "category": "动作场景",
+      "location": "下片第一句",
+      "traditional_associations": [
+        "远方书信、友情",
+        "传递思念"
+      ],
+      "local_function": "引入远方来信，反衬当下孤独"
+    },
+    {
+      "surface": "鱼传尺素",
+      "category": "动作场景",
+      "location": "下片第二句",
+      "traditional_associations": [
+        "书信往来",
+        "思念传递"
+      ],
+      "local_function": "与驿寄梅花并置，强调书信频繁却更添愁"
+    },
+    {
+      "surface": "砌成此恨",
+      "category": "抽象具象化",
+      "location": "下片第三句",
+      "traditional_associations": [
+        "愁恨堆积如山",
+        "无法排解"
+      ],
+      "local_function": "将抽象恨意具象为可砌之物，突出沉重"
+    },
+    {
+      "surface": "郴江",
+      "category": "自然",
+      "location": "下片第四句",
+      "traditional_associations": [
+        "流水、流逝",
+        "离愁别绪"
+      ],
+      "local_function": "以江水自喻，引出对命运的质问"
+    },
+    {
+      "surface": "郴山",
+      "category": "自然",
+      "location": "下片第四句",
+      "traditional_associations": [
+        "稳固、家园",
+        "阻隔"
+      ],
+      "local_function": "与郴江对照，象征故土与羁绊"
+    },
+    {
+      "surface": "潇湘",
+      "category": "自然",
+      "location": "下片第五句",
+      "traditional_associations": [
+        "远方、贬谪之地",
+        "愁苦、流放"
+      ],
+      "local_function": "代表不可知的远方，强化漂泊无依"
+    }
+  ],
+  "relations": [
+    {
+      "type": "echo",
+      "involved_imagery": [
+        "雾",
+        "月"
+      ],
+      "note": "两者皆具迷蒙特性，共同营造迷茫氛围"
+    },
+    {
+      "type": "echo",
+      "involved_imagery": [
+        "楼台",
+        "津渡"
+      ],
+      "note": "皆为人造地标，被自然意象遮蔽"
+    },
+    {
+      "type": "contrast",
+      "involved_imagery": [
+        "孤馆",
+        "桃源"
+      ],
+      "note": "封闭现实与理想仙境形成强烈对比"
+    },
+    {
+      "type": "progression",
+      "involved_imagery": [
+        "斜阳",
+        "杜鹃声"
+      ],
+      "note": "从视觉到听觉，层层递进渲染暮色哀愁"
+    },
+    {
+      "type": "juxtaposition",
+      "involved_imagery": [
+        "驿寄梅花",
+        "鱼传尺素"
+      ],
+      "note": "两个相似动作并置，强调书信频繁"
+    },
+    {
+      "type": "transformation",
+      "involved_imagery": [
+        "砌成此恨",
+        "郴江"
+      ],
+      "note": "从抽象恨意转向具象江水，情感外化"
+    },
+    {
+      "type": "contrast",
+      "involved_imagery": [
+        "郴江",
+        "郴山"
+      ],
+      "note": "流动与静止、离去与留守的对照"
+    }
+  ],
+  "groups": [
+    {
+      "theme": "迷蒙与遮蔽",
+      "members": [
+        "雾",
+        "月",
+        "楼台",
+        "津渡",
+        "桃源"
+      ]
+    },
+    {
+      "theme": "孤寂与封闭",
+      "members": [
+        "孤馆",
+        "春寒",
+        "杜鹃声",
+        "斜阳"
+      ]
+    },
+    {
+      "theme": "书信与愁恨",
+      "members": [
+        "驿寄梅花",
+        "鱼传尺素",
+        "砌成此恨"
+      ]
+    },
+    {
+      "theme": "山水与漂泊",
+      "members": [
+        "郴江",
+        "郴山",
+        "潇湘"
+      ]
+    }
+  ]
+}

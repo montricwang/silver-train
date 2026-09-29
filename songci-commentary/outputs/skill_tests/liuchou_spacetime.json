@@ -1,0 +1,191 @@
+{
+  "poem_title": "六丑·蔷薇谢后作",
+  "line_analysis": [
+    {
+      "line_id": "L1",
+      "text": "正单衣试酒，怅客里、光阴虚掷。",
+      "time": "present",
+      "space": {
+        "location": "客舍/室内",
+        "distance": "near",
+        "interior_exterior": "interior"
+      },
+      "reality": "real",
+      "note": "眼前实景，客中饮酒"
+    },
+    {
+      "line_id": "L2",
+      "text": "愿春暂留，春归如过翼，一去无迹。",
+      "time": "present",
+      "space": {
+        "location": "unspecified",
+        "distance": "near",
+        "interior_exterior": "unclear"
+      },
+      "reality": "real",
+      "note": "眼前感慨，春去之速"
+    },
+    {
+      "line_id": "L3",
+      "text": "为问花何在？夜来风雨，葬楚宫倾国。",
+      "time": "past",
+      "space": {
+        "location": "庭院/花落处",
+        "distance": "middle",
+        "interior_exterior": "exterior"
+      },
+      "reality": "virtual_memory",
+      "note": "回忆昨夜风雨摧花"
+    },
+    {
+      "line_id": "L4",
+      "text": "钗钿堕处遗香泽，乱点桃蹊，轻翻柳陌。",
+      "time": "past",
+      "space": {
+        "location": "桃蹊柳陌",
+        "distance": "middle",
+        "interior_exterior": "exterior"
+      },
+      "reality": "virtual_memory",
+      "note": "继续回忆落花景象"
+    },
+    {
+      "line_id": "L5",
+      "text": "多情为谁追惜？但蜂媒蝶使，时叩窗槅。",
+      "time": "present",
+      "space": {
+        "location": "窗槅",
+        "distance": "near",
+        "interior_exterior": "interior"
+      },
+      "reality": "real",
+      "note": "回到眼前，蜂蝶叩窗"
+    },
+    {
+      "line_id": "L6",
+      "text": "东园岑寂，渐蒙笼暗碧。",
+      "time": "present",
+      "space": {
+        "location": "东园",
+        "distance": "middle",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "眼前园景"
+    },
+    {
+      "line_id": "L7",
+      "text": "静绕珍丛底，成叹息。",
+      "time": "present",
+      "space": {
+        "location": "珍丛底",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "眼前动作"
+    },
+    {
+      "line_id": "L8",
+      "text": "长条故惹行客，似牵衣待话，别情无极。",
+      "time": "present",
+      "space": {
+        "location": "花丛旁",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "眼前拟人化描写"
+    },
+    {
+      "line_id": "L9",
+      "text": "残英小、强簪巾帻。",
+      "time": "present",
+      "space": {
+        "location": "巾帻（头上）",
+        "distance": "near",
+        "interior_exterior": "unclear"
+      },
+      "reality": "real",
+      "note": "眼前动作"
+    },
+    {
+      "line_id": "L10",
+      "text": "终不似一朵，钗头颤袅，向人欹侧。",
+      "time": "present",
+      "space": {
+        "location": "钗头（想象中）",
+        "distance": "near",
+        "interior_exterior": "unclear"
+      },
+      "reality": "virtual_imagination",
+      "note": "想象盛花在钗头之态"
+    },
+    {
+      "line_id": "L11",
+      "text": "漂流处、莫趁潮汐。",
+      "time": "future",
+      "space": {
+        "location": "潮汐/水上",
+        "distance": "far",
+        "interior_exterior": "exterior"
+      },
+      "reality": "virtual_imagination",
+      "note": "想象落花随水漂流"
+    },
+    {
+      "line_id": "L12",
+      "text": "恐断红、尚有相思字，何由见得？",
+      "time": "future",
+      "space": {
+        "location": "水上/远方",
+        "distance": "far",
+        "interior_exterior": "exterior"
+      },
+      "reality": "virtual_imagination",
+      "note": "想象断红有字，无人得见"
+    }
+  ],
+  "perspective": {
+    "type": "first_person",
+    "is_switched": false,
+    "switch_points": []
+  },
+  "transitions": [
+    {
+      "between_lines": "L2-L3",
+      "type": "time",
+      "direction": "present→past",
+      "note": "从眼前春去感慨转入回忆昨夜风雨"
+    },
+    {
+      "between_lines": "L4-L5",
+      "type": "time",
+      "direction": "past→present",
+      "note": "从回忆落花回到眼前蜂蝶叩窗"
+    },
+    {
+      "between_lines": "L9-L10",
+      "type": "reality",
+      "direction": "real→virtual_imagination",
+      "note": "从眼前簪残花转入想象盛花之态"
+    },
+    {
+      "between_lines": "L10-L11",
+      "type": "time",
+      "direction": "present→future",
+      "note": "从眼前想象转入对未来落花漂流的担忧"
+    },
+    {
+      "between_lines": "L10-L11",
+      "type": "space",
+      "direction": "近处（钗头）→远处（潮汐水上）",
+      "note": "空间从近处跳至远方"
+    }
+  ],
+  "summary": {
+    "dominant_time_organization": "flashback",
+    "dominant_space_organization": "outward_expansion",
+    "virtual_real_pattern": "interwoven"
+  }
+}

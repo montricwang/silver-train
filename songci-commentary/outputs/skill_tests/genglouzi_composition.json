@@ -1,0 +1,55 @@
+{
+  "poem_title": "更漏子·无题",
+  "structure": {
+    "opening_type": "landscape_opening",
+    "opening_note": "以柳丝、春雨、漏声等景物开篇",
+    "closing_type": "emotion_closing",
+    "closing_note": "以'梦长君不知'直接点出相思之苦",
+    "upper_lower_relationship": "juxtaposition",
+    "transition_method": "leap"
+  },
+  "unfolding_method": {
+    "dominant_methods": [
+      "leaping",
+      "pointing_dyeing"
+    ],
+    "note": "上片景物跳跃（漏声→雁→乌→画屏），下片以'惆怅'点情，再以景物染之"
+  },
+  "emotional_progression": {
+    "path": "从静谧夜景 → 惊动感怀 → 转入室内惆怅 → 梦醒孤寂",
+    "turning_points": [
+      {
+        "at_line": "L6",
+        "description": "'惆怅谢家池阁'直接点出情感，由景入情"
+      }
+    ]
+  },
+  "syntax_highlights": {
+    "leading_chars": [],
+    "inverted_lines": [],
+    "enjambments": [],
+    "notable_parallelism": [
+      {
+        "lines": [
+          "惊塞雁",
+          "起城乌"
+        ],
+        "note": "对仗工整，动词+名词结构"
+      }
+    ]
+  },
+  "traditional_term_tags": [
+    {
+      "term": "跳脱",
+      "note": "意象间无过渡，如漏声至雁乌"
+    },
+    {
+      "term": "点染",
+      "note": "下片'惆怅'点情，帘幕烛光染之"
+    },
+    {
+      "term": "并置",
+      "note": "上下片场景独立，上片室外下片室内"
+    }
+  ]
+}

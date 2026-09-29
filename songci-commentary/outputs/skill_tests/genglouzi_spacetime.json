@@ -1,0 +1,77 @@
+{
+  "poem_title": "更漏子·柳丝长",
+  "line_analysis": [
+    {
+      "line_id": "L1",
+      "text": "柳丝长，春雨细，花外漏声迢递。",
+      "time": "present",
+      "space": {
+        "location": "室外（花外）",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "眼前实景，漏声从远处传来"
+    },
+    {
+      "line_id": "L2",
+      "text": "惊塞雁，起城乌，画屏金鹧鸪。",
+      "time": "present",
+      "space": {
+        "location": "室外→室内（画屏）",
+        "distance": "far→near",
+        "interior_exterior": "exterior→interior"
+      },
+      "reality": "real",
+      "note": "空间跳接：从塞雁城乌到室内画屏"
+    },
+    {
+      "line_id": "L3",
+      "text": "香雾薄，透帘幕，惆怅谢家池阁。",
+      "time": "present",
+      "space": {
+        "location": "室内（帘幕、谢家池阁）",
+        "distance": "near",
+        "interior_exterior": "interior"
+      },
+      "reality": "real",
+      "note": "实景，谢家池阁为室内或庭院"
+    },
+    {
+      "line_id": "L4",
+      "text": "红烛背，绣帘垂，梦长君不知。",
+      "time": "present→dream",
+      "space": {
+        "location": "室内（红烛、绣帘）",
+        "distance": "near",
+        "interior_exterior": "interior"
+      },
+      "reality": "real→virtual_imagination",
+      "note": "末句转入梦境想象，君不知为虚境"
+    }
+  ],
+  "perspective": {
+    "type": "persona",
+    "is_switched": false,
+    "switch_points": []
+  },
+  "transitions": [
+    {
+      "between_lines": "L2-L3",
+      "type": "space",
+      "direction": "室外→室内",
+      "note": "从塞雁城乌的室外空间跳至室内帘幕"
+    },
+    {
+      "between_lines": "L4内部",
+      "type": "reality",
+      "direction": "real→virtual_imagination",
+      "note": "从红烛绣帘实景转入梦长君不知的虚境"
+    }
+  ],
+  "summary": {
+    "dominant_time_organization": "linear_present",
+    "dominant_space_organization": "inward_contraction",
+    "virtual_real_pattern": "real_to_virtual"
+  }
+}

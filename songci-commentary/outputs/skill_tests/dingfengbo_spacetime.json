@@ -1,0 +1,179 @@
+{
+  "poem_title": "定风波·莫听穿林打叶声",
+  "line_analysis": [
+    {
+      "line_id": "L1",
+      "text": "莫听穿林打叶声",
+      "time": "present",
+      "space": {
+        "location": "林间路上",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "眼前实景，雨打树叶声"
+    },
+    {
+      "line_id": "L2",
+      "text": "何妨吟啸且徐行",
+      "time": "present",
+      "space": {
+        "location": "林间路上",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "当下行为"
+    },
+    {
+      "line_id": "L3",
+      "text": "竹杖芒鞋轻胜马",
+      "time": "present",
+      "space": {
+        "location": "林间路上",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "眼前感受，比较"
+    },
+    {
+      "line_id": "L4",
+      "text": "谁怕？",
+      "time": "present",
+      "space": {
+        "location": "林间路上",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "反问，当下心境"
+    },
+    {
+      "line_id": "L5",
+      "text": "一蓑烟雨任平生",
+      "time": "atemporal",
+      "space": {
+        "location": "人生旅途（抽象）",
+        "distance": "extreme",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "从眼前扩展到一生，时间泛化"
+    },
+    {
+      "line_id": "L6",
+      "text": "料峭春风吹酒醒",
+      "time": "present",
+      "space": {
+        "location": "林间路上",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "时间推移，酒醒后"
+    },
+    {
+      "line_id": "L7",
+      "text": "微冷",
+      "time": "present",
+      "space": {
+        "location": "林间路上",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "身体感受"
+    },
+    {
+      "line_id": "L8",
+      "text": "山头斜照却相迎",
+      "time": "present",
+      "space": {
+        "location": "山头",
+        "distance": "far",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "空间跳接，从近处林间到远处山头"
+    },
+    {
+      "line_id": "L9",
+      "text": "回首向来萧瑟处",
+      "time": "past",
+      "space": {
+        "location": "来路（萧瑟处）",
+        "distance": "middle",
+        "interior_exterior": "exterior"
+      },
+      "reality": "virtual_memory",
+      "note": "回忆刚才走过的风雨路"
+    },
+    {
+      "line_id": "L10",
+      "text": "归去",
+      "time": "present",
+      "space": {
+        "location": "林间路上",
+        "distance": "near",
+        "interior_exterior": "exterior"
+      },
+      "reality": "real",
+      "note": "当下动作"
+    },
+    {
+      "line_id": "L11",
+      "text": "也无风雨也无晴",
+      "time": "atemporal",
+      "space": {
+        "location": "心境（抽象）",
+        "distance": "extreme",
+        "interior_exterior": "unclear"
+      },
+      "reality": "real",
+      "note": "哲理总结，超越具体时空"
+    }
+  ],
+  "perspective": {
+    "type": "first_person",
+    "is_switched": false,
+    "switch_points": []
+  },
+  "transitions": [
+    {
+      "between_lines": "L5-L6",
+      "type": "time",
+      "direction": "atemporal→present",
+      "note": "从人生概括回到当下酒醒"
+    },
+    {
+      "between_lines": "L8-L9",
+      "type": "time",
+      "direction": "present→past",
+      "note": "从眼前斜照转向回忆来路"
+    },
+    {
+      "between_lines": "L8-L9",
+      "type": "space",
+      "direction": "远处山头→来路",
+      "note": "空间从远处山头跳回近处来路"
+    },
+    {
+      "between_lines": "L8-L9",
+      "type": "reality",
+      "direction": "real→virtual_memory",
+      "note": "从实景转入回忆虚境"
+    },
+    {
+      "between_lines": "L10-L11",
+      "type": "time",
+      "direction": "present→atemporal",
+      "note": "从当下归去动作转入永恒哲理"
+    }
+  ],
+  "summary": {
+    "dominant_time_organization": "linear_present",
+    "dominant_space_organization": "outward_expansion",
+    "virtual_real_pattern": "real_to_virtual"
+  }
+}

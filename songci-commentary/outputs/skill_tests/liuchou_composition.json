@@ -1,0 +1,97 @@
+{
+  "poem_title": "六丑·蔷薇谢后作",
+  "structure": {
+    "opening_type": "narrative_opening",
+    "opening_note": "以换衣饮酒的日常动作起，带出客里怅惘",
+    "closing_type": "question_closing",
+    "closing_note": "以疑问收束，恐断红相思字无人得见",
+    "upper_lower_relationship": "progression",
+    "transition_method": "carry_over"
+  },
+  "unfolding_method": {
+    "dominant_methods": [
+      "unfolding",
+      "pointing_dyeing"
+    ],
+    "note": "按时间顺序铺叙春去花谢过程，以'愿春暂留'点题，后以景物染之"
+  },
+  "emotional_progression": {
+    "path": "客里怅惘 → 惜春留春 → 寻花叹花 → 惜花自怜 → 寄望渺茫",
+    "turning_points": [
+      {
+        "at_line": "愿春暂留",
+        "description": "从虚度光阴的怅惘转向对春的留恋"
+      },
+      {
+        "at_line": "静绕珍丛底，成叹息",
+        "description": "从外部寻花转向内心叹息，情绪加深"
+      }
+    ]
+  },
+  "syntax_highlights": {
+    "leading_chars": [
+      {
+        "char": "怅",
+        "leads": "客里、光阴虚掷"
+      },
+      {
+        "char": "为问",
+        "leads": "花何在？夜来风雨，葬楚宫倾国"
+      },
+      {
+        "char": "但",
+        "leads": "蜂媒蝶使，时叩窗槅"
+      },
+      {
+        "char": "渐",
+        "leads": "蒙笼暗碧"
+      },
+      {
+        "char": "恐",
+        "leads": "断红、尚有相思字，何由见得"
+      }
+    ],
+    "inverted_lines": [],
+    "enjambments": [
+      {
+        "lines": [
+          "长条故惹行客",
+          "似牵衣待话",
+          "别情无极"
+        ],
+        "note": "跨三句连读，模拟牵衣欲语之态"
+      }
+    ],
+    "notable_parallelism": [
+      {
+        "lines": [
+          "乱点桃蹊",
+          "轻翻柳陌"
+        ],
+        "note": "对仗工整，写落花飘散"
+      }
+    ]
+  },
+  "traditional_term_tags": [
+    {
+      "term": "铺叙",
+      "note": "按时间顺序层层展开，从春归到花谢到残英"
+    },
+    {
+      "term": "点染",
+      "note": "以'愿春暂留'点题，后以风雨葬花等景物染之"
+    },
+    {
+      "term": "层进",
+      "note": "情感逐层加深，从怅惘到叹息到恐断红"
+    },
+    {
+      "term": "由实入虚",
+      "note": "从眼前落花实景，转入'恐断红尚有相思字'的虚想"
+    },
+    {
+      "term": "结句宕开",
+      "note": "结尾以疑问宕开，余韵悠长"
+    }
+  ]
+}

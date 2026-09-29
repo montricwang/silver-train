@@ -1,0 +1,200 @@
+{
+  "poem_title": "更漏子·柳丝长",
+  "imagery_units": [
+    {
+      "surface": "柳丝长",
+      "category": "自然",
+      "location": "上片第一句",
+      "traditional_associations": [
+        "柳丝象征离别与缠绵",
+        "长丝暗示思念的悠长"
+      ],
+      "local_function": "开篇以春景定调，引出离别氛围"
+    },
+    {
+      "surface": "春雨细",
+      "category": "自然",
+      "location": "上片第一句",
+      "traditional_associations": [
+        "春雨代表细腻愁绪",
+        "细雨常与朦胧、哀婉相关"
+      ],
+      "local_function": "与柳丝并置，强化轻柔、绵长的情感基调"
+    },
+    {
+      "surface": "花外漏声迢递",
+      "category": "自然",
+      "location": "上片第二句",
+      "traditional_associations": [
+        "漏声象征时间流逝",
+        "迢递暗示遥远、断续"
+      ],
+      "local_function": "引入听觉意象，将空间拉远，暗示思念的遥远"
+    },
+    {
+      "surface": "惊塞雁",
+      "category": "自然",
+      "location": "上片第三句",
+      "traditional_associations": [
+        "塞雁象征边塞、书信",
+        "雁惊常喻不安或消息中断"
+      ],
+      "local_function": "以雁惊呼应漏声，渲染不安氛围"
+    },
+    {
+      "surface": "起城乌",
+      "category": "自然",
+      "location": "上片第三句",
+      "traditional_associations": [
+        "城乌常与荒凉、夜警相关",
+        "乌啼暗示不祥或孤寂"
+      ],
+      "local_function": "与塞雁并置，强化外部世界的动荡感"
+    },
+    {
+      "surface": "画屏金鹧鸪",
+      "category": "人造",
+      "location": "上片第四句",
+      "traditional_associations": [
+        "画屏象征闺阁内景",
+        "金鹧鸪代表富贵与静止"
+      ],
+      "local_function": "从外部转向内部，以静止的装饰物对比外界的惊动"
+    },
+    {
+      "surface": "香雾薄",
+      "category": "自然",
+      "location": "下片第一句",
+      "traditional_associations": [
+        "香雾代表闺中香气",
+        "薄雾暗示朦胧、短暂"
+      ],
+      "local_function": "营造室内幽微氛围，过渡到情感空间"
+    },
+    {
+      "surface": "透帘幕",
+      "category": "动作场景",
+      "location": "下片第一句",
+      "traditional_associations": [
+        "帘幕象征内外分隔",
+        "透字暗示渗透、无法隔绝"
+      ],
+      "local_function": "连接香雾与室内，表现愁绪弥漫"
+    },
+    {
+      "surface": "惆怅谢家池阁",
+      "category": "抽象具象化",
+      "location": "下片第二句",
+      "traditional_associations": [
+        "谢家池阁指代贵族庭院",
+        "惆怅直接点明情感"
+      ],
+      "local_function": "点明地点与情绪，将抽象愁绪具象化于空间"
+    },
+    {
+      "surface": "红烛背",
+      "category": "人造",
+      "location": "下片第三句",
+      "traditional_associations": [
+        "红烛象征夜晚、欢爱或孤独",
+        "背烛暗示背对光明、转向黑暗"
+      ],
+      "local_function": "以烛光背向暗示情感转向内敛与孤寂"
+    },
+    {
+      "surface": "绣帘垂",
+      "category": "人造",
+      "location": "下片第三句",
+      "traditional_associations": [
+        "绣帘代表闺阁私密",
+        "垂帘暗示封闭、等待"
+      ],
+      "local_function": "与红烛背并置，强化封闭与静止的室内空间"
+    },
+    {
+      "surface": "梦长君不知",
+      "category": "动作场景",
+      "location": "下片第四句",
+      "traditional_associations": [
+        "梦长象征思念绵延",
+        "君不知暗示单向情感"
+      ],
+      "local_function": "收束全词，以梦境点明主题——思念不被知晓"
+    }
+  ],
+  "relations": [
+    {
+      "type": "echo",
+      "involved_imagery": [
+        "柳丝长",
+        "春雨细"
+      ],
+      "note": "两者均为春景，共同营造绵长、轻柔的基调"
+    },
+    {
+      "type": "contrast",
+      "involved_imagery": [
+        "惊塞雁",
+        "画屏金鹧鸪"
+      ],
+      "note": "外部动态惊扰与内部静态装饰形成对照"
+    },
+    {
+      "type": "progression",
+      "involved_imagery": [
+        "花外漏声迢递",
+        "惊塞雁",
+        "起城乌"
+      ],
+      "note": "从漏声到雁惊、乌起，听觉意象逐步升级"
+    },
+    {
+      "type": "transformation",
+      "involved_imagery": [
+        "香雾薄",
+        "透帘幕"
+      ],
+      "note": "香雾从室内弥漫到帘幕，状态由浓转淡"
+    },
+    {
+      "type": "juxtaposition",
+      "involved_imagery": [
+        "红烛背",
+        "绣帘垂"
+      ],
+      "note": "两者并置，共同构建封闭、静止的室内场景"
+    },
+    {
+      "type": "echo",
+      "involved_imagery": [
+        "惆怅谢家池阁",
+        "梦长君不知"
+      ],
+      "note": "惆怅情绪与梦境呼应，深化思念主题"
+    }
+  ],
+  "groups": [
+    {
+      "theme": "外部自然与动荡",
+      "members": [
+        "柳丝长",
+        "春雨细",
+        "花外漏声迢递",
+        "惊塞雁",
+        "起城乌"
+      ]
+    },
+    {
+      "theme": "内部闺阁与静止",
+      "members": [
+        "画屏金鹧鸪",
+        "香雾薄",
+        "透帘幕",
+        "惆怅谢家池阁",
+        "红烛背",
+        "绣帘垂",
+        "梦长君不知"
+      ]
+    }
+  ]
+}

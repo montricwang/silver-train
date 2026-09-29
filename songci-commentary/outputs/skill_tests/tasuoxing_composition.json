@@ -1,0 +1,60 @@
+{
+  "poem_title": "踏莎行·郴州旅舍",
+  "structure": {
+    "opening_type": "landscape_opening",
+    "opening_note": "以雾月迷离之景起，奠定迷茫基调",
+    "closing_type": "question_closing",
+    "closing_note": "以郴江流向之问收束，余韵悠长",
+    "upper_lower_relationship": "progression",
+    "transition_method": "carry_over"
+  },
+  "unfolding_method": {
+    "dominant_methods": [
+      "pointing_dyeing",
+      "layering"
+    ],
+    "note": "上片以景染情，下片以事点恨，层层递进至结尾翻空一问"
+  },
+  "emotional_progression": {
+    "path": "迷茫孤寂 → 思乡无望 → 春寒自伤 → 恨意堆积 → 无奈质问",
+    "turning_points": [
+      {
+        "at_line": "L5",
+        "description": "从景物渲染转入直接抒情，'可堪'领起孤馆之恨"
+      }
+    ]
+  },
+  "syntax_highlights": {
+    "leading_chars": [
+      {
+        "char": "可堪",
+        "leads": "孤馆闭春寒，杜鹃声里斜阳暮"
+      }
+    ],
+    "inverted_lines": [],
+    "enjambments": [],
+    "notable_parallelism": [
+      {
+        "lines": [
+          "驿寄梅花",
+          "鱼传尺素"
+        ],
+        "note": "对仗工整，以典故写书信往来"
+      }
+    ]
+  },
+  "traditional_term_tags": [
+    {
+      "term": "点染",
+      "note": "上片以景染情，下片以事点恨"
+    },
+    {
+      "term": "层进",
+      "note": "从景到情再到恨，层层加深"
+    },
+    {
+      "term": "结句翻空",
+      "note": "结尾以无理之问翻出深意"
+    }
+  ]
+}

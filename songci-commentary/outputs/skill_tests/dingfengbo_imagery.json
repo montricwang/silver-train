@@ -1,0 +1,240 @@
+{
+  "poem_title": "定风波·莫听穿林打叶声",
+  "imagery_units": [
+    {
+      "surface": "穿林打叶声",
+      "category": "自然",
+      "location": "上片第一句",
+      "traditional_associations": [
+        "风雨之声象征人生困境",
+        "自然界的阻挠与挑战"
+      ],
+      "local_function": "开篇营造风雨交加的恶劣环境，作为全词情感转折的起点"
+    },
+    {
+      "surface": "吟啸",
+      "category": "动作场景",
+      "location": "上片第二句",
+      "traditional_associations": [
+        "文人放达自适的象征",
+        "超脱困境的豪情"
+      ],
+      "local_function": "表现词人面对风雨的从容与洒脱，定下豁达基调"
+    },
+    {
+      "surface": "徐行",
+      "category": "动作场景",
+      "location": "上片第二句",
+      "traditional_associations": [
+        "从容不迫的生活态度",
+        "与急行形成对比"
+      ],
+      "local_function": "强化词人悠然自得的姿态，与风雨的急促形成对照"
+    },
+    {
+      "surface": "竹杖",
+      "category": "人造",
+      "location": "上片第三句",
+      "traditional_associations": [
+        "隐士或行脚者的标志",
+        "简朴生活的象征"
+      ],
+      "local_function": "与下文'马'形成对比，突出物质简陋但精神自由"
+    },
+    {
+      "surface": "芒鞋",
+      "category": "人造",
+      "location": "上片第三句",
+      "traditional_associations": [
+        "平民或僧道的穿着",
+        "远离官场束缚的象征"
+      ],
+      "local_function": "与'竹杖'共同构成简朴意象，强化超脱世俗的意味"
+    },
+    {
+      "surface": "马",
+      "category": "自然",
+      "location": "上片第三句",
+      "traditional_associations": [
+        "富贵与权势的象征",
+        "快速与进取的意象"
+      ],
+      "local_function": "作为对比项，衬托竹杖芒鞋的轻便与自由"
+    },
+    {
+      "surface": "一蓑烟雨",
+      "category": "自然",
+      "location": "上片第五句",
+      "traditional_associations": [
+        "隐逸生活的典型意象",
+        "风雨中独行的孤傲"
+      ],
+      "local_function": "将眼前风雨升华为人生境遇的象征，表达任其自然的豁达"
+    },
+    {
+      "surface": "料峭春风",
+      "category": "自然",
+      "location": "下片第一句",
+      "traditional_associations": [
+        "早春的寒意",
+        "微冷中蕴含生机"
+      ],
+      "local_function": "承接上片风雨，引入酒醒后的现实感受，推动情绪转折"
+    },
+    {
+      "surface": "酒醒",
+      "category": "动作场景",
+      "location": "下片第一句",
+      "traditional_associations": [
+        "从迷醉到清醒的转变",
+        "对现实的重新认知"
+      ],
+      "local_function": "标志词人从风雨中的超然状态回到现实，为后续感悟铺垫"
+    },
+    {
+      "surface": "微冷",
+      "category": "自然",
+      "location": "下片第二句",
+      "traditional_associations": [
+        "身体感受的细微变化",
+        "暗示情绪上的轻微波动"
+      ],
+      "local_function": "细化酒醒后的体感，为下文'斜照'的温暖形成对照"
+    },
+    {
+      "surface": "山头斜照",
+      "category": "自然",
+      "location": "下片第三句",
+      "traditional_associations": [
+        "夕阳余晖象征希望与温暖",
+        "风雨过后的光明"
+      ],
+      "local_function": "与开篇风雨形成鲜明对照，暗示困境后的转机与慰藉"
+    },
+    {
+      "surface": "萧瑟处",
+      "category": "自然",
+      "location": "下片第四句",
+      "traditional_associations": [
+        "荒凉冷落的景象",
+        "人生失意的隐喻"
+      ],
+      "local_function": "回顾风雨历程，将具体场景抽象为人生经历的象征"
+    },
+    {
+      "surface": "风雨",
+      "category": "自然",
+      "location": "下片第五句",
+      "traditional_associations": [
+        "人生困境与挫折",
+        "自然界的无常"
+      ],
+      "local_function": "与'晴'并列，最终超越二元对立，表达无执无着的境界"
+    },
+    {
+      "surface": "晴",
+      "category": "自然",
+      "location": "下片第五句",
+      "traditional_associations": [
+        "顺境与光明",
+        "与风雨相对的美好状态"
+      ],
+      "local_function": "与'风雨'共同被否定，体现词人超越得失的终极感悟"
+    }
+  ],
+  "relations": [
+    {
+      "type": "contrast",
+      "involved_imagery": [
+        "穿林打叶声",
+        "吟啸",
+        "徐行"
+      ],
+      "note": "风雨的急促与词人的从容形成鲜明对照"
+    },
+    {
+      "type": "contrast",
+      "involved_imagery": [
+        "竹杖",
+        "芒鞋",
+        "马"
+      ],
+      "note": "简朴的竹杖芒鞋与象征富贵的马形成对比"
+    },
+    {
+      "type": "progression",
+      "involved_imagery": [
+        "穿林打叶声",
+        "一蓑烟雨",
+        "萧瑟处"
+      ],
+      "note": "从具体风雨到抽象人生境遇的递进升华"
+    },
+    {
+      "type": "transformation",
+      "involved_imagery": [
+        "酒醒",
+        "微冷",
+        "山头斜照"
+      ],
+      "note": "从酒醒后的微冷到斜照的温暖，状态发生转换"
+    },
+    {
+      "type": "contrast",
+      "involved_imagery": [
+        "穿林打叶声",
+        "山头斜照"
+      ],
+      "note": "开篇的风雨与结尾的斜照形成环境对照"
+    },
+    {
+      "type": "echo",
+      "involved_imagery": [
+        "一蓑烟雨",
+        "风雨",
+        "晴"
+      ],
+      "note": "烟雨与风雨呼应，最终与晴并列被超越"
+    },
+    {
+      "type": "juxtaposition",
+      "involved_imagery": [
+        "料峭春风",
+        "微冷",
+        "山头斜照"
+      ],
+      "note": "春风、微冷、斜照并置，营造复杂微妙的氛围"
+    }
+  ],
+  "groups": [
+    {
+      "theme": "风雨与天气",
+      "members": [
+        "穿林打叶声",
+        "一蓑烟雨",
+        "料峭春风",
+        "微冷",
+        "山头斜照",
+        "萧瑟处",
+        "风雨",
+        "晴"
+      ]
+    },
+    {
+      "theme": "人物动作与状态",
+      "members": [
+        "吟啸",
+        "徐行",
+        "酒醒"
+      ]
+    },
+    {
+      "theme": "随身物品",
+      "members": [
+        "竹杖",
+        "芒鞋",
+        "马"
+      ]
+    }
+  ]
+}

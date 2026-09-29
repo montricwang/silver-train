@@ -1,0 +1,23 @@
+{
+  "Pattern": "柳丝无力风凝重，平明初起停清梦。日暖照秾芳，严妆迎晓光。红颜无所取，争把金心许。月冷碧衫寒，未眠夜欲阑。",
+  "MatchedLength": 44,
+  "MatchedTuneFormats": [
+    {
+      "MatchedIndex": 0,
+      "Tune": {
+        "Id": 105,
+        "Name": "菩薩蠻",
+        "Format": {
+          "FormatIndex": 0,
+          "Desc": "雙調四十四字，前後段各四句，兩仄韻、兩平韻",
+          "Comment": "此調以此詞為正體，若朱詞之不換韻，樓詞之三聲叶韻，皆變格也。\n按元好問《中州集樂府》王庭筠詞“斷腸人恨餘香換，塵暗瑣窗春。小花簷月曉，屏掩半山青”，李晏、孟宗獻俱有之，蓋迴文體也。每句一迴，即同李白詞體。或以單調另分一體者誤。\n溫庭筠詞前段起句“牡丹花謝鶯聲歇”，“牡”字仄聲。後段起句“無言勻睡臉”，“無”字平聲。第二句“釵上蝶雙舞”，“蝶”字仄聲。結句“無憀獨倚門”，“獨”字仄聲。譜內可平可仄據此，餘參下詞。",
+          "SampleAuthor": "李白",
+          "SampleContent": "平林漠漠煙如織寒山一帶傷心碧暝色入高樓有人樓上愁玉階空竚立宿鳥歸飛急何處是歸程長亭更短亭",
+          "Definition": "⊙○◎●○○●仄韻⊙○◎●○○●韻◎●●○○平韻◎○⊙●○韻　　◎○○●●換仄韻◎●⊙○●韻⊙●●○○換平韻⊙○⊙●○韻",
+          "LeadingChars": null,
+          "FormatHtml": "<p class='mSize'>　　平林漠漠煙如織　　寒山一帶傷心碧　暝色入高樓　　有人樓上愁　<br />\r\n<span class='comment'>　　中平中仄平平仄<span class='rhythm'>仄</span><span class='rhythm'>韻</span>中平中仄平平仄<span class='rhythm'>韻</span>中仄仄平平<span class='rhythm'>平</span><span class='rhythm'>韻</span>中平中仄平<span class='rhythm'>韻</span></span></p>\r\n<br /><p class='mSize'>　　玉階空竚立　　　宿鳥歸飛急　何處是歸程　　　長亭更短亭　<br />\r\n<span class='comment'>　　中平平仄仄<span class='rhythm'>換</span><span class='rhythm'>仄</span><span class='rhythm'>韻</span>中仄中平仄<span class='rhythm'>韻</span>中仄仄平平<span class='rhythm'>換</span><span class='rhythm'>平</span><span class='rhythm'>韻</span>中平中仄平<span class='rhythm'>韻</span></span></p>\r\n"
+        }
+      }
+    }
+  ]
+}
