@@ -1,0 +1,10 @@
+transformers
+torch
+fastapi
+uvicorn
+llama-index
+chromadb
+pydantic-settings
+python-dotenv
+openai
+streamlit

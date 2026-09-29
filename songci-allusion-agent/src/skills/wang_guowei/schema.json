@@ -1,0 +1,52 @@
+{
+    "type": "object",
+    "properties": {
+        "has_jingjie": {
+            "type": "boolean",
+            "description": "是否具有境界"
+        },
+        "realm_type": {
+            "type": "string",
+            "enum": [
+                "有我之境",
+                "无我之境",
+                "难判定"
+            ],
+            "description": "境界类型"
+        },
+        "creation_mode": {
+            "type": "string",
+            "enum": [
+                "写境",
+                "造境",
+                "兼有",
+                "难判定"
+            ],
+            "description": "造境或写境"
+        },
+        "transparency": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "不隔程度"
+        },
+        "sincerity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "description": "真情真景程度"
+        },
+        "explanation": {
+            "type": "string",
+            "description": "简要分析"
+        }
+    },
+    "required": [
+        "has_jingjie",
+        "realm_type",
+        "creation_mode",
+        "transparency",
+        "sincerity",
+        "explanation"
+    ]
+}
